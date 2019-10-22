@@ -10,7 +10,7 @@ description: ""
 # Team names, titles and social links
 people:
 - name: Jose Urra
-  pic: 1
+  pic: jose
 #  position: Lead Designer
   social:
     - title: twitter
@@ -21,22 +21,33 @@ people:
 #      url: #
 
 - name: Julieta Arancio
-  pic: 2
+  pic: julieta
 #  position: Lead Marketer
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/Cassandreces
 #    - title: facebook
 #      url: #
 #    - title: linkedin
 #      url: #
 
 - name: Alex Kutschera
-  pic: 3
+  pic: alex
 #  position: Lead Developer
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/alexwastooshort
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
+
+- name: Andre M Chagas
+  pic: andre
+#  position: Lead Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/chagas_am
 #    - title: facebook
 #      url: #
 #    - title: google-plus
