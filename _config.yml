@@ -42,12 +42,12 @@ people:
 #    - title: google-plus
 #      url: #
 
-- name: Andre M Chagas
-  pic: andre
+#- name: Andre M Chagas
+#  pic: andre
 #  position: Lead Developer
-  social:
-    - title: twitter
-      url: https://twitter.com/chagas_am
+#  social:
+#    - title: twitter
+#      url: https://twitter.com/chagas_am
 #    - title: facebook
 #      url: #
 #    - title: google-plus
