@@ -2,24 +2,12 @@ url: #https://amchagas.github.io
 baseurl: #/olx-hardware-landing/
 
 # Site settings
-title: Open Leaders Hardware
+title: Open Hardware Makers
 email: your-email@domain.com
 description: ""
 
 
 # Team names, titles and social links
-people:
-- name: Jose Urra
-  pic: jose
-#  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-#    - title: facebook
-#      url: #
-#    - title: stack-overflow
-#      url: #
-
 - name: Julieta Arancio
   pic: julieta
 #  position: Lead Marketer
