@@ -1,5 +1,5 @@
-url: #https://amchagas.github.io
-baseurl: #/olx-hardware-landing/
+url: https://openhardware.space
+baseurl: /
 
 # Site settings
 title: Open Hardware Makers
@@ -46,7 +46,7 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/openHWleaders
+    url: http://twitter.com/openHWmakers
 #  - title: facebook
 #    url:
 #  - title: stack-overflow
