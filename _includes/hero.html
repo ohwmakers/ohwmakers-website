@@ -1,0 +1,68 @@
+<!-- Breadcrumbs Start -->
+
+<div
+  class="rs-breadcrumbs breadcrumbs-overlay"
+  style="
+     background-image: linear-gradient(
+           to right bottom,
+           #1b0f02b7,
+           transparent
+         ),
+         url('{{include.params.bgUrl}}');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: {% if include.params.bgPosition %} {{include.params.bgPosition}} {% else %} center {% endif %};"
+>
+  <div id="nav-padding" class="pt-120"></div>
+  <div class="text-center pt-120 pb-120">
+    <h1 class="page-title text-white">{{ page.title }}</h1>
+    <div class="rs-breadcrumbs">
+      <div class="breadcrumbs-text white-color">
+        <ul>
+          {%- comment -%}
+          <li>
+            <a class="active text-hover-primary" href="/">Home</a>
+          </li>
+          {% for breadcrumb in include.params.breadcrumbs %}
+          <!-- -->
+          {% if forloop.last %}
+          <li class="text-white">{{breadcrumb.text}}</li>
+          {% else %}
+          <li>
+            <a class="active text-hover-primary" href="{{breadcrumb.link}}"
+              >{{breadcrumb.text}}</a
+            >
+          </li>
+          {% endif %}
+
+          <!-- -->
+          {% endfor %} {%- endcomment -%}
+          <!-- -->
+          {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+          <!-- -->
+          <li>
+            <a class="active text-hover-primary" href="/">Home</a>
+          </li>
+          {% for crumb in crumbs offset:1 %}
+          <!-- -->
+          {% if forloop.last %}
+          <li class="text-white">
+            {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+          </li>
+          {% else %}
+          <li>
+            <a
+              class="{% unless forloop.last %}active{% endunless %} text-hover-primary"
+              href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"
+              >{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a
+            >
+          </li>
+          {% endif %}
+          <!-- -->
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Breadcrumbs End -->

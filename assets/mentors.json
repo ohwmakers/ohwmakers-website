@@ -1,0 +1,29 @@
+---
+---
+
+[
+    {% for item in site.mentors %}
+    {% if forloop.first != true %},{% endif %}
+    {
+        "title": "{{ item.title }}",
+        "description": "{{ item.description }}",
+        "link": "{{ item.url }}",
+        "photo": "{{ item.photo }}",
+        "socialMedia": [
+            {% for x in item.socialMedia %}
+            {% if forloop.first != true %},{% endif %}
+            { 
+                "faIcon": "{{x.faIcon}}",
+                "link": "{{x.link}}"
+            }
+            {% endfor %}
+        ],
+        "languages": [
+            {% for x in item.languages %}
+            {% if forloop.first != true %},{% endif %}
+            "{{x}}"
+            {% endfor %}
+        ]
+    }
+    {% endfor %}
+]

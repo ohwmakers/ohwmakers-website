@@ -1,0 +1,67 @@
+<!--Full width header Start-->
+<div class="full-width-header home8-style4 main-home">
+  <!--Header Start-->
+  <header id="rs-header" class="rs-header">
+    <!-- Menu Start -->
+    <div
+      class="menu-area menu-sticky {% unless page.url == '/' or page.url =='/index.html' %} visible-menu {% endunless %}"
+    >
+      <div class="container">
+        <div class="text-right nav-content w-100">
+          <div class="logo-cat-wrap">
+            <div class="logo-part">
+              <a href={{"/" | relative_url }} >
+                <!-- <img
+                    class="normal-logo"
+                    src={{ "/assets/images/ohm-logo.png" | relative_url }}
+                    alt=""
+                  /> -->
+                <img class="sticky-logo" src={{ "/assets/images/ohm-logo.png" |
+                relative_url }} alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="rs-menu-area">
+            <div class="main-menu">
+              <div class="mobile-menu">
+                <a class="rs-menu-toggle">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+              <nav class="rs-menu">
+                <ul class="nav-menu">
+                  {% for item in site.data.navigation %}
+                  <li
+                    class="menu-item {% if page.url contains item.url and item.url != '/' %} current-menu-item {% endif %} {% if item.url == '/' and page.url == '/' %} current-menu-item {% endif %}"
+                  >
+                    {% if item.button %}
+                    <a class="nav-btn" href="{{item.url}}">{{item.text}}
+                    </a>
+                    {% else %}
+                    <a href="{{item.url}}">{{item.text}}{% if item.submenu %} <i class="fa fa-chevron-right" style="margin-left: 16px; font-size: 10px; line-height: 10px;" aria-hidden="true"></i>{% endif %}</a>
+                    {% endif %}
+                    {% if item.submenu %}
+                    <ul class="sub-menu">
+                      {% for subitem in item.submenu %} 
+                      <li class="{% if page.url contains subitem.url and subitem.url != '/' %} active {% endif %}">
+                        <a href="{{subitem.url}}">{{subitem.text}}</a> 
+                      </li>
+                      {% endfor %}                  
+                    </ul>
+                    {% endif %}
+                  </li>
+                  {% endfor %}
+                </ul>
+                <!-- //.nav-menu -->
+              </nav>
+            </div>
+            <!-- //.main-menu -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu End -->
+  </header>
+  <!--Header End-->
+</div>
+<!--Full width header End-->

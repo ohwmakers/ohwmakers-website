@@ -1,0 +1,19 @@
+---
+- bg: "/assets/images/mentee.jpeg"
+  faIcon: graduation-cap
+  title: Mentees
+  shortDescription: A person or a team running  or starting a hardware project that aims to be open, collaborative and inclusive, anywhere in the world
+  description: >
+    A person or a team running or starting an open hardware project. Mentees design and develop open hardware projects that empower others to collaborate within inclusive communities, supporting the global open hardware movement. 
+- bg: "/assets/images/mentor.jpeg"
+  faIcon: comments
+  title: Mentors
+  shortDescription: Mentors support mentees as they practice working open and facilitate connections within their networks
+  description: >
+    Mentors support participants as they practice working open and facilitate connections within their networks, as they go through training and learn to work openly on their projects. Mentors will gain valuable coaching skills and connections across the open hardware community. 
+- bg: "/assets/images/expert.jpeg"
+  faIcon: gear
+  title: Experts
+  shortDescription: Experts provide domain-specific knowledge and facilitate connections within the network. 
+  description: >
+    Experts support participants with domain-specific knowledge as they practice working open and facilitating connections within the network. 

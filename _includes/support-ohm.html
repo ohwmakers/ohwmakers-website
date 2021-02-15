@@ -1,0 +1,24 @@
+{% assign data = site.data.supportSection %}
+<div class="rs-newsletter style2 pt-120 pb-120">
+  <div class="container">
+    <div class="newsletter-wrap p-0">
+      <div class="row y-middle">
+        <div class="col-md-9 sm-mb-30">
+          <div class="sec-title">
+            <h2 class="title white-color">{{data.title}}</h2>
+            <div class="desc white-color pr-100 md-pr-0">
+              {{data.description}}
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a
+            class="btn-send btn-black btn-hover-black"
+            href="{{data.externalLink}}"
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

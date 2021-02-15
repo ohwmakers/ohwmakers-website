@@ -1,0 +1,193 @@
+---
+layout: checkFilters
+---
+
+<!-- Breadcrumbs Start -->
+<div
+  class="rs-breadcrumbs breadcrumbs-overlay"
+  style="
+     background-image: linear-gradient(
+           to right bottom,
+           #1b0f02b7,
+           transparent
+         ),
+         url('{{page.bg}}');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;"
+>
+  <div id="nav-padding" class="pt-120"></div>
+  <div class="text-center pt-120 pb-120">
+    <h1 class="page-title text-white">
+      {{page.collection | capitalize}}{% if page.autopages %} |
+      {{page.autopages.display_name | capitalize}}{% endif %}
+    </h1>
+    <div class="rs-breadcrumbs">
+      <div class="breadcrumbs-text white-color">
+        <ul>
+          <li>
+            <a class="active text-hover-primary" href="/">Home</a>
+          </li>
+          {% if page.autopages %}
+          <li>
+            <a class="active text-hover-primary" href="/community/"
+              >Community</a
+            >
+          </li>
+          <li>
+            <a
+              class="active text-hover-primary"
+              href="/community/{{page.collection}}/"
+              >{{page.collection | capitalize}}</a
+            >
+          </li>
+          <li class="text-white">
+            {% if page.autopages %}{{page.autopages.display_name |
+            capitalize}}{% endif %}
+          </li>
+          {% else %}
+          <li>
+            <a class="active text-hover-primary" href="/community/"
+              >Community</a
+            >
+          </li>
+          <li class="text-white">{{page.collection | capitalize}}</li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Breadcrumbs End -->
+
+<!---->
+{% assign tags = "" %}
+<!---->
+{% for page in site[page.collection] %}
+<!---->
+{% for pageTag in page.tags %}
+<!---->
+{% unless tags contains pageTag %}
+<!---->
+{% capture tags %}{{tags | append: pageTag | append: ', '}}{% endcapture %}
+<!---->
+{% endunless %}
+<!---->
+{% endfor %}
+<!---->
+{% endfor %}
+<!---->
+{% assign tags = tags | split: ", " %}
+<!---->
+{% assign sizeTags = tags | size %}
+<!---->
+<!-- Popular Courses Section Start -->
+<div class="rs-latest-couses bg-light-yellow pt-70 pb-30 md-pt-30 md-pb-0">
+  <div class="container">
+    {% if sizeTags > 0 %}
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-xl-12 mb-40 d-flex flex-column d-md-block">
+        <ul class="tags">
+          <!---->
+          {% for tag in tags %}
+          <li class="tag">
+            {% capture tagSlug %}{{tag | replace: " ", "-" | downcase }}{%
+            endcapture %}
+            <a
+              href="{{'/community/' | append: page.collection | append: '/' | append: tagSlug | relative_url }}"
+              class="{% if page.url contains tagSlug %} text-primary {% endif %}"
+              >{{ tag | escape | capitalize }}</a
+            >
+          </li>
+          {% endfor %}
+          <!---->
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+    <div class="row justify-content-center">
+      {% for item in paginator.posts %}
+      <div class="col-lg-8 col-xl-6 mb-40 d-flex flex-column d-md-block">
+        <div class="course-item">
+          <div class="course-image">
+            <a href="{{item.url}}">
+              <img src="{{item.photo}}" alt="images" />
+            </a>
+          </div>
+          <div class="course-info">
+            <ul class="meta-part">
+              {% for item in item.socialMedia %}
+              <li>
+                <a href="{{item.link}}"
+                  ><i class="fa fa-{{item.faIcon}}" aria-hidden="true"></i
+                ></a>
+              </li>
+              {% endfor %}
+            </ul>
+            <h3 class="course-title">
+              <a href="{{item.url}}"> {{item.title}} </a>
+            </h3>
+            <div class="mb-10">{{item.description}}</div>
+            <div></div>
+            <div>
+              <ul class="meta-part">
+                {% for item in item.languages %}
+                <li>{{item}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="btn-part bottom-right">
+              <a href="{{item.url}}">See profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    {% if paginator.total_pages > 1 %}
+    <div class="mt-5">
+      <nav>
+        <ul class="pagination">
+          <!-- Previous -->
+          <li
+            class="page-item {% unless paginator.previous_page %} disabled {% endunless %}"
+          >
+            <a
+              class="page-link"
+              href="{{ paginator.previous_page_path | remove: 'index.html'}}"
+            >
+              <i class="fas fa-long-arrow-alt-left"></i> Previous</a
+            >
+          </li>
+          <!-- Other pages -->
+          {% if paginator.page_trail %} {% for trail in paginator.page_trail %}
+          <li
+            class="page-item {% if page.url == trail.path %}active{% endif %}"
+          >
+            <a
+              class="page-link"
+              href="{{ trail.path | prepend: site.baseurl | remove: 'index.html'}}"
+              title="{{trail.title}}"
+            >
+              {{ trail.num }}
+            </a>
+          </li>
+          {% endfor %} {% endif %}
+
+          <!-- next page -->
+          <li
+            class="page-item {% unless paginator.next_page %} disabled {% endunless %}"
+          >
+            <a
+              class="page-link"
+              href="{{ paginator.next_page_path | remove: 'index.html' }}"
+              >Next <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    {% endif %}
+  </div>
+</div>

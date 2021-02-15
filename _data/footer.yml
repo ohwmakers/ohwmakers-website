@@ -1,0 +1,13 @@
+description: >
+  Mentoring & Training Program on Open Hardware inspired by Mozilla Open Leaders.
+  Making openhardware the default everywhere, one project at a time.
+socialMedia:
+#  - name: facebook
+#    faIcon: facebook
+#    link: "#"
+  - name: twitter
+    faIcon: twitter
+    link: "https://twitter.com/openHWmakers"
+  - name: GitHub
+    faIcon: github
+    link: "https://github.com/ohwmakers"

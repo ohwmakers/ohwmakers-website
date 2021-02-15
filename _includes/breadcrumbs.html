@@ -1,0 +1,29 @@
+<div class="rs-breadcrumbs profile-breadcrumbs">
+  <div class="breadcrumbs-text white-color">
+    <ul>
+      <!-- -->
+      {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+      <!-- -->
+      <li>
+        <a class="active text-hover-primary" href="/">Home</a>
+      </li>
+      {% for crumb in crumbs offset:1 %}
+      <!-- -->
+      {% if forloop.last %}
+      <li class="text-white">
+        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+      </li>
+      {% else %}
+      <li>
+        <a
+          class="{% unless forloop.last %}active{% endunless %} text-hover-primary"
+          href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}"
+          >{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a
+        >
+      </li>
+      {% endif %}
+      <!-- -->
+      {% endfor %}
+    </ul>
+  </div>
+</div>

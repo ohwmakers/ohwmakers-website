@@ -1,19 +1,34 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
 
-
-    <body id="page-top" class="index">
-
-    {% include header.html %}
-    {% include about.html %} 
-    {% include services.html %}
-    {% include team.html %}
-    <!-- {% include contact.html %} -->
+  <body class="d-flex flex-column defult-home">
+    {% include navigation.html %}
+    <!--Preloader area start here-->
+    {% if site.loader %}
+    <div id="loader" class="loader orange-color">
+      <div class="loader-container">
+        <div class="loader-icon">
+          <img src={{"/assets/images/ohm-logo.png" | relative_url}} alt="" />
+        </div>
+      </div>
+    </div>
+    {% endif %}
+<!--Preloader area End here-->
+    <main role="main">
+      <!-- Main content Start -->
+<div class="main-content">
+      {{ content }}
+      
+</div>
+<!-- Main content End -->
+    </main>
+    <!-- start scrollUp  -->
+    <div id="scrollUp" class="orange-color">
+      <i class="fa fa-angle-up"></i>
+    </div>
+  <!-- End scrollUp  -->
     {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
-
-    </body>
+    {% include scripts.html %}
+  </body>
 </html>

@@ -1,0 +1,60 @@
+<div class="rs-about style1 gradient pt-150 pb-150">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-xl-4">
+        <div class="sec-title3">
+          <h2 class="title">Roles in Open Hardware Makers</h2>
+        </div>
+      </div>
+      <div id="tabs-wrapper" class="col-xl-8">
+        <ul class="nav nav-tabs histort-part" id="myTab" role="tablist">
+          {% for tab in include.params.items %}
+          <li class="nav-item tab-btns single-history">
+            <a
+              class="nav-link tab-btn {% if forloop.first %} active {% endif %}"
+              id="{{tab.title}}-tab"
+              data-toggle="tab"
+              href="#{{tab.title}}"
+              role="tab"
+              aria-controls="about-history"
+              aria-selected="true"
+              >{{tab.title}}</a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="tab-content tabs-content">
+      {% for tab in include.params.items %}
+      <div
+        class="tab-pane tab fade {% if forloop.first %} active show {% endif %}"
+        id="{{tab.title}}"
+        role="tabpanel"
+        aria-labelledby="{{tab-title}}-tab"
+      >
+        <div class="row">
+          <div class="col-lg-4 mb-4 text-center">
+            <img class="program-tab-img" src="{{tab.bg}}" alt="" />
+          </div>
+          <div class="col-lg-8">
+            <div class="sec-title">
+              <div class="sub-title orange">Role Description</div>
+            </div>
+            <p>{{tab.role}}</p>
+            <div class="sec-title">
+              <div class="sub-title orange">Selection Criteria</div>
+            </div>
+            <p>{{tab.criteria}}</p>
+            <div class="sec-title">
+              <div class="sub-title orange">Duration and Commitment</div>
+            </div>
+            <p>{{tab.commitment}}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

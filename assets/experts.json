@@ -1,0 +1,23 @@
+---
+---
+
+[
+    {% for item in site.experts %}
+    {% if forloop.first != true %},{% endif %}
+    {
+        "title": "{{ item.title }}",
+        "description": "{{ item.description }}",
+        "url": "{{ item.url }}",
+        "photo": "{{ item.photo }}",
+        "socialMedia": [
+            {% for x in item.socialMedia %}
+            {% if forloop.first != true %},{% endif %}
+            { 
+                "faIcon": "{{x.faIcon}}",
+                "link": "{{x.link}}"
+            }
+            {% endfor %}
+        ]
+    }
+    {% endfor %}
+]

@@ -1,0 +1,177 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+autopages:
+  permalink: /projects/:tag
+pagination:
+  enabled: true
+  collection: projects
+  per_page: 3
+collection: projects
+bg: "https://eufordigital.eu/wp-content/uploads/2020/02/mentorship3-2000w-scaled.jpg"
+---
+
+--- layout: default ---
+
+<!-- Breadcrumbs Start -->
+<div
+  class="rs-breadcrumbs breadcrumbs-overlay"
+  style="
+     background-image: linear-gradient(
+           to right bottom,
+           #1b0f02b7,
+           transparent
+         ),
+         url('{{page.bg}}');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;"
+>
+  <div id="nav-padding" class="pt-120"></div>
+  <div class="text-center pt-120 pb-120">
+    <h1 class="page-title text-white">
+      {{page.collection | capitalize}}{% if page.autopages %} |
+      {{page.autopages.display_name | capitalize}}{% endif %}
+    </h1>
+    <div class="rs-breadcrumbs">
+      <div class="breadcrumbs-text white-color">
+        <ul>
+          <li>
+            <a class="active text-hover-primary" href="/">Home</a>
+          </li>
+          {% if page.autopages %}
+          <li>
+            <a class="active text-hover-primary" href="/{{page.collection}}/"
+              >{{page.collection | capitalize}}</a
+            >
+          </li>
+          <li class="text-white">
+            {% if page.autopages %}{{page.autopages.display_name |
+            capitalize}}{% endif %}
+          </li>
+          {% else %}
+          <li class="text-white">{{page.collection | capitalize}}</li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Breadcrumbs End -->
+
+<!---->
+{% assign tags = "" %}
+<!---->
+{% for page in site[page.collection] %}
+<!---->
+{% for pageTag in page.tags %}
+<!---->
+{% unless tags contains pageTag %}
+<!---->
+{% capture tags %}{{tags | append: pageTag | append: ', '}}{% endcapture %}
+<!---->
+{% endunless %}
+<!---->
+{% endfor %}
+<!---->
+{% endfor %}
+<!---->
+{% assign tags = tags | split: ", " %}
+<!---->
+{% assign sizeTags = tags | size %}
+<!---->
+<!-- Popular Courses Section Start -->
+<div class="rs-latest-couses bg-light-yellow pt-70 pb-30 md-pt-30 md-pb-0">
+  <div class="container">
+    {% if sizeTags > 0 %}
+    <div class="row justify-content-center">
+      <div class="col-12 mb-40 d-flex flex-column d-md-block">
+        <ul class="tags">
+          <!---->
+          {% for tag in tags %}
+          <li class="tag">
+            {% capture tagSlug %}{{tag | replace: " ", "-" | downcase }}{%
+            endcapture %}
+            <a
+              href="{{page.collection | append: '/' | append: tagSlug | relative_url }}"
+              class="{% if page.url contains tagSlug %} text-primary {% endif %}"
+              >{{ tag | escape | capitalize }}</a
+            >
+          </li>
+          {% endfor %}
+          <!---->
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+    <!-- Events Section Start -->
+    <div class="rs-event modify2 orange-color">
+      <div class="row">
+        {% for project in paginator.posts %}
+        <div class="col-lg-4 mb-30 col-md-6">
+          <div class="event-item">
+            <div class="event-short">
+              <div class="featured-img">
+                <img src="{{project.photo}}" alt="Image" />
+              </div>
+              <div class="content-part">
+                <h4 class="title">
+                  <a href="{{project.url}}">{{project.title}}</a>
+                </h4>
+                <p class="text-white">{{project.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- Events Section End -->
+
+    {% if paginator.total_pages > 1 %}
+    <div class="mt-4 mb-5">
+      <nav>
+        <ul class="pagination">
+          <!-- Previous -->
+          <li
+            class="page-item {% unless paginator.previous_page %} disabled {% endunless %}"
+          >
+            <a
+              class="page-link"
+              href="{{ paginator.previous_page_path | remove: 'index.html'}}"
+            >
+              <i class="fas fa-long-arrow-alt-left"></i> Previous</a
+            >
+          </li>
+          <!-- Other pages -->
+          {% if paginator.page_trail %} {% for trail in paginator.page_trail %}
+          <li
+            class="page-item {% if page.url == trail.path %}active{% endif %}"
+          >
+            <a
+              class="page-link"
+              href="{{ trail.path | prepend: site.baseurl | remove: 'index.html'}}"
+              title="{{trail.title}}"
+            >
+              {{ trail.num }}
+            </a>
+          </li>
+          {% endfor %} {% endif %}
+
+          <!-- next page -->
+          <li
+            class="page-item {% unless paginator.next_page %} disabled {% endunless %}"
+          >
+            <a
+              class="page-link"
+              href="{{ paginator.next_page_path | remove: 'index.html' }}"
+              >Next <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    {% endif %}
+  </div>
+</div>

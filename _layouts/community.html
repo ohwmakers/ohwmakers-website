@@ -1,0 +1,131 @@
+---
+layout: default
+---
+
+{% include hero.html params=page.hero %}
+
+<!-- Note: To make appear all sections that we don't have data for yet, un-comment them -->
+
+<!-- About section-->
+<!--<div id="rs-about" class="rs-about style3 pt-100 pb-100 md-pt-70">
+  <div class="container">
+    <div class="row y-middle">
+      <div class="col-lg-4 lg-pr-0 md-mb-30">
+        <div class="about-intro">
+          <div class="sec-title">
+            <div class="sub-title orange">{{page.about.subtitle}}</div>
+            <h2 class="title mb-21">{{page.about.title}}</h2>
+            <div class="desc">{{page.about.description}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 pl-83 md-pl-15">
+        <div class="row rs-counter couter-area">
+          <div class="col-md-4 sm-mb-30">
+            <div class="counter-item one">
+              {% assign numProjects = site.projects | size %}
+              <h2 class="number rs-count pr-0">{{numProjects}}</h2>
+              <h4 class="title mb-0">Projects</h4>
+            </div>
+          </div>
+          <div class="col-md-4 sm-mb-30">
+            <div class="counter-item two">
+              {% assign numMentors = site.mentors | size %}
+              <h2 class="number rs-count pr-0">{{numMentors}}</h2>
+              <h4 class="title mb-0">Mentors</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="counter-item three">
+              {% assign numExperts = site.experts | size %}
+              <h2 class="number rs-count pr-0">{{numExperts}}</h2>
+              <h4 class="title mb-0">Experts</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>--> 
+
+<!-- Roles section-->
+<div class="rs-latest-events style1 bg-wrap pt-100 md-pt-70 md-pb-70">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 pr-65 pt-24 md-pt-0 md-pr-15 md-mb-30">
+        <div class="sec-title mb-42">
+          <div class="sub-title orange">{{page.roles.subtitle}}</div>
+          <h2 class="title mb-0">{{page.roles.title}}</h2>
+        </div>
+        <div class="single-img">
+          <img src="{{page.roles.photo}}" alt="Event Image" />
+        </div>
+      </div>
+
+      <div class="col-lg-6 lg-pl-0">
+        <div class="event-wrap">
+          {% for item in site.data.roles %}
+          <div
+            class="events-short mb-30 d-flex flex-column align-items-start flex-sm-row align-items-sm-center"
+          >
+            <div class="community-role-icon">
+              <i class="fa fa-{{item.faIcon}}"></i>
+            </div>
+            <div class="content-part">
+              <h4 class="categorie">{{item.title}}</h4>
+              <p class="mb-0">{{item.description}}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- mentors section start -->
+<div class="rs-latest-couses bg-light-yellow pt-100 pb-100">
+  <div class="container">
+<!--    <div class="sec-title text-center mb-60 md-mb-45">
+      <div class="sub-title orange">Professionals who will guide you</div>
+      <h2 class="title mb-0">Mentors</h2>
+    </div>
+    <div id="mentors" class="row justify-content-center">
+      <!-- community.js - items will be added-->
+    </div>
+  </div>
+</div>
+
+
+<!-- Experts Section Start -->
+<!--<div id="rs-team" class="rs-team style1 inner-style orange-color pt-100 pb-150">
+  <div class="container">
+    <div class="sec-title mb-50 md-mb-30 text-center">
+      <div class="sub-title orange">Specializing in certain areas</div>
+      <h2 class="title mb-0">Experts</h2>
+    </div>
+    <div id="experts" class="row">
+      <!-- community.js - items will be added -->
+    <!-- </div>
+  </div>
+</div>-->
+
+<!-- Code of Conduct section-->
+<div class="rs-cta section-wrap gradient">
+  <div class="row align-items-stretch">
+    <div class="col-lg-6">
+      <div class="img-part">
+        <img src="{{page.codeOfConduct.photo}}" alt="Image" />
+      </div>
+    </div>
+    <div class="col-lg-6 d-flex justify-content-center align-items-center">
+      <div class="content p-4 p-sm-5">
+        <div class="sec-title">
+          <h2 class="title">{{page.codeOfConduct.title}}</h2>
+          <div class="desc">{{page.codeOfConduct.description}} {{ content }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

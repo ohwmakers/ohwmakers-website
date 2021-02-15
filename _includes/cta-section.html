@@ -1,0 +1,28 @@
+<div class="row">
+  <div
+    class="mb-100 col-xl-6 d-flex align-items-center justify-content-center {% if include.params.odd %} order-last pl-0 pl-xl-5 {% else %} pr-0 pr-xl-5 {% endif %}"
+  >
+    <div class="program-icon">
+      <i class="flaticon-{{include.params.icon}}"></i>
+    </div>
+    <!--<div class="img-part">
+      <img src="{{include.params.bg}}" alt="Image" /> 
+    </div>-->
+  </div>
+  <div class="mb-100 col-xl-6 d-flex align-items-center">
+    <div class="content">
+      <div class="sec-title mb-40">
+        <div class="desc markdown-body">{{include.content | markdownify }}</div>
+      </div>
+      {% if include.params.action %}
+      <div class="btn-part">
+        <a
+          class="readon btn-orange btn-hover-black text-white"
+          href="{{include.params.action.link}}"
+          >{{include.params.action.text}}</a
+        >
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

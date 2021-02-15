@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{% include hero.html params=page.hero %}
+
+
+<div
+  class="origin-story-wrap"
+  stlye="
+      background-image: url('{{page.origin.bg}}'); 
+      background-repeat: no-repeat; 
+      background-position: 
+      {% if page.origin.position %} {{page.origin.position}} 
+      {% else %} center 
+      {% endif %}"
+>
+  <div class="container">
+    <div class="sec-title mb-100 text-center">
+      <div class="sub-title orange"></div>
+      <h2 class="title mb-0">Why Open Hardware Makers</h2>
+    </div>
+    <div class="two-column">{{content}}</div>
+  </div>
+</div>
+
+<!-- Team Section Start -->
+<div id="rs-team" class="rs-team style1 orange-color pt-100 pb-100">
+  <div class="container">
+    <div class="sec-title mb-50 md-mb-30">
+      <div class="sub-title orange">OHM Team</div>
+      <h2 class="title mb-0">Members</h2>
+    </div>
+    <div
+      class="rs-carousel owl-carousel nav-style2 orange-color members-carousel"
+      data-loop="true"
+      data-items="3"
+      data-margin="30"
+      data-autoplay="true"
+      data-hoverpause="true"
+      data-autoplay-timeout="5000"
+      data-smart-speed="800"
+      data-dots="false"
+      data-nav="true"
+      data-nav-speed="false"
+      data-center-mode="false"
+      data-mobile-device="1"
+      data-mobile-device-nav="false"
+      data-mobile-device-dots="false"
+      data-ipad-device="2"
+      data-ipad-device-nav="false"
+      data-ipad-device-dots="false"
+      data-ipad-device2="2"
+      data-ipad-device-nav2="false"
+      data-ipad-device-dots2="false"
+      data-md-device="3"
+      data-md-device-nav="true"
+      data-md-device-dots="false"
+    >
+      {% for member in site.members %}
+      <div class="member-item">
+        <a href="{{member.url}}"><img class="member-photo" src="{{member.photo}}" alt="" /></a>
+        <div class="member-content">
+          <h4 class="name"><a href="{{member.url}}">{{member.title}}</a></h4>
+          <span class="designation">{{member.description}}</span>
+          <ul class="social-links">
+            {% for item in member.socialMedia %}
+            <li>
+              <a href="{{item.link}}"><i class="fa fa-{{item.faIcon}}"></i></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<!-- Team Section End -->
+{% include support-ohm.html %}

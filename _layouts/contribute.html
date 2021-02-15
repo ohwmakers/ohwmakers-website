@@ -1,0 +1,186 @@
+---
+layout: default
+---
+{% include hero.html params=page.hero %}
+
+<div class="container mt-100 mb-50">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-xl-6">
+      <div class="contrib-container mb-5" style="background-color: #efefef">
+        <div class="d-flex flex-column">
+          <div class="text-left text-lg-center">
+            <img
+              src="{{page.mentors.icon}}"
+              class="become-img"
+              alt=""
+            />
+            <div class="sec-title"><h2 class="title mt-4">{{page.mentors.title}}</h2></div>
+            <div class="become-text my-4">
+              {{page.mentors.description}}
+            </div>
+          </div>
+          <div class="text-left text-lg-center">
+            <a
+              class="readon btn-orange btn-hover-black main-home text-white"
+              href="{{page.mentors.action.link}}"
+              >{{page.mentors.action.text}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-xl-6">
+      <div class="contrib-container mb-5" style="background-color: #efefef">
+        <div class="d-flex flex-column">
+          <div class="text-left text-lg-center">
+            <img
+              src="{{page.experts.icon}}"
+              class="become-img"
+              alt=""
+            />
+            <div class="sec-title"><h2 class="title mt-4">{{page.experts.title}}</h2></div>
+            <div class="become-text my-4">
+              {{page.experts.description}}
+            </div>
+          </div>
+          <div class="text-left text-lg-center">
+            <a
+              class="readon btn-orange btn-hover-black main-home text-white"
+              href="{{page.experts.action.link}}"
+              >{{page.experts.action.text}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  <div id="rs-about" class="rs-about style1 mb-100">
+    <div class="container">
+      <div class="contrib-container" style="background-color: black;">
+        <div class="row align-items-center">
+          <div class="col-lg-6 pr-60 md-pr-15 md-mb-60">
+            <div
+              class="img-part js-tilt"
+              style="
+                will-change: transform;
+                transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+              "
+            >
+              <img
+                class=""
+                src="{{page.organize.photo}}"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="sec-title mb-26">
+              <div class="sub-title orange">{{page.organize.subtitle}}</div>
+              <h2 class="title text-white">{{page.organize.title}}</h2>
+              <div class="become-text text-justify text-white">
+                {{page.organize.description}}
+              </div>
+            </div>
+            <a
+              class="readon btn-orange main-home text-white btn-hover-white"
+              href="{{page.organize.action.link}}"
+              >{{page.organize.action.text}}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container ">
+     <div class="contrib-container  mb-100" style="background-color: #fff0ac">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-xl-4 mb-5 mb-lg-0 text-left text-lg-center">
+          <img
+            src="{{page.sponsors.icon}}"
+            class="become-img"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-7 col-xl-8">
+            <div class="sec-title"><h2 class="title">{{page.sponsors.title}}</h2></div>
+          <div class="become-text">
+            {{page.sponsors.description}}
+          </div>
+         
+        </div>
+        <div class="col-12">
+          <a
+      class="mt-3 float-lg-right readon btn-orange btn-hover-black main-home text-white"
+      href="{{page.sponsors.action.link}}"
+      >{{page.sponsors.action.text}}</a
+    >
+        </div>
+      </div>
+      
+    </div>
+    
+       <div class="contrib-container" style="background-color: #efefef">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-xl-4 mb-5 mb-lg-0 text-left text-lg-center">
+          <img
+            src="{{page.partners.icon}}"
+            class="become-img"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-7 col-xl-8">
+            <div class="sec-title"><h2 class="title">{{page.partners.title}}</h2></div>
+          <div class="become-text">
+            {{page.partners.description}}
+          </div>
+         
+        </div>
+        <div class="col-12"> <a
+          class="float-lg-right mt-3 readon btn-orange btn-hover-black main-home text-white"
+          href="{{page.partners.action.link}}"
+          >{{page.partners.action.text}}</a
+        ></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="my-5"></div>
+
+  <div class="container mb-100 mt-100">
+  <div class="bg-light-yellow contrib-container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="sec-title mb-26">
+          <div class="sub-title orange">{{page.suggestion.subtitle}}</div>
+          <h2 class="title ">{{page.suggestion.title}}</h2>
+          <div class="become-text">
+            {{page.suggestion.description}}
+          </div>
+        </div>
+        
+          <a
+            class="readon btn-orange btn-hover-black main-home text-white"
+            href="{{page.suggestion.action.link}}"
+            >{{page.suggestion.action.text}}</a
+          >
+      </div>
+      <div class="col-lg-3 d-none d-lg-flex justify-content-center align-items-center">
+        <img
+        src="{{page.suggestion.icon}}"
+        class="become-img"
+        alt=""
+      />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>

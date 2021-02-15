@@ -1,0 +1,47 @@
+---
+---
+
+/* import only the necessary Bootstrap files */
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+$theme-colors: (
+  primary: #e8a35b,
+  secondary: #f0cf97,
+  ternary: #aa7c2c,
+  zero: #000000,
+  light-yellow: #fffcf6,
+);
+
+// Bootstrap v4.4.3 scss
+@import "bootstrap/bootstrap";
+
+// font-awesome css
+@import "assets/css/font-awesome.min";
+// animate css
+@import "assets/css/animate";
+// owl.carousel css
+@import "assets/css/owl.carousel";
+// slick css
+@import "assets/css/slick";
+// off canvas css
+@import "assets/css/off-canvas";
+// linea-font css
+@import "assets/fonts/linea-fonts";
+// flaticon css
+@import "assets/fonts/flaticon";
+// magnific popup css
+@import "assets/css/magnific-popup";
+// Main Menu css
+@import "assets/css/rsmenu-main";
+// spacing css
+@import "assets/css/rs-spacing";
+// responsive css
+@import "assets/css/responsive";
+// educavo theme scss
+@import "theme";
+
+@import "custom";
+
+@import "markdown";

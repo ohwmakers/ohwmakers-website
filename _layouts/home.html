@@ -1,0 +1,114 @@
+---
+layout: default
+---
+
+<!-- Slider Section Start -->
+<div class="rs-slider main-home">
+  <div
+    class="rs-carousel owl-carousel"
+    data-loop="false"
+    data-items="1"
+    data-margin="0"
+    data-autoplay="false"
+    data-hoverpause="true"
+    data-autoplay-timeout="5000"
+    data-smart-speed="800"
+    data-dots="false"
+    data-nav="false"
+    data-nav-speed="false"
+    data-center-mode="false"
+    data-mobile-device="1"
+    data-mobile-device-nav="false"
+    data-mobile-device-dots="false"
+    data-ipad-device="1"
+    data-ipad-device-nav="false"
+    data-ipad-device-dots="false"
+    data-ipad-device2="1"
+    data-ipad-device-nav2="false"
+    data-ipad-device-dots2="false"
+    data-md-device="1"
+    data-md-device-nav="true"
+    data-md-device-dots="false"
+  >
+    {% for slide in page.slider %}
+    <div
+      class="slider-content"
+      style="
+         background-image: linear-gradient(
+             to right bottom,
+             #1b0f02b7,
+             #aa7c2c70
+           ),
+           url('{{slide.bg}}');
+         background-size: cover;
+         background-repeat: no-repeat;
+       "
+    >
+      <div class="container">
+        <div class="content-part">
+          {% if slide.hasLogo %}
+          <div class="d-flex justify-content-center mb-4">
+            <img src={{"/assets/images/ohm-logo.svg" | relative_url }}
+            width="200" height="200" alt="" class="wow fadeInUp"
+            data-wow-duration="2000ms" />
+          </div>
+          {% endif %}
+          <h2
+            class="sub-title wow bounceInLeft text-white"
+            data-wow-duration="2000ms"
+          >
+            {{slide.title}}
+          </h2>
+          <div
+            class="desc text-white wow bounceInRight text-white mb-4"
+            data-wow-duration="2000ms"
+          >
+            {{slide.description}}
+          </div>
+          <div class="sl-btn wow fadeInUp" data-wow-duration="2000ms">
+            <a
+              class="readon btn-orange btn-hover-black main-home text-white"
+              href="#"
+              >Apply to program</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Features Section start -->
+  <div id="rs-features" class="rs-features main-home">
+    <div class="container">
+      <div class="row">
+        {% for f in page.features %}
+        <div
+          class="col-xl-4 {% unless forloop.last %} mb-5 mb-xl-0 {% endunless %}"
+        >
+          <div class="features-wrap">
+            <img class="feature-img" src="{{f.img}}" />
+            <div class="content-part mx-auto">
+              <h4 class="title">
+                <span class="watermark">{{f.title}}</span>
+              </h4>
+              <p class="dese">{{f.subtitle}}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <!-- Features Section End -->
+</div>
+<!-- Slider Section End -->
+
+<!--  -->
+{% include about-section.html body=page.about %}
+<!--  -->
+{% include project-stages-2.html body=page.projectStages %}
+<!--  -->
+{% include join-as.html body=page.apply %}
+<!--  -->
+{% include support-ohm.html %}

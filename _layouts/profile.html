@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% assign c = content | strip %}
+<div class="rs-breadcrumbs breadcrumbs-overlay profile-background-container">
+  <div id="nav-padding" class="pt-120"></div>
+  <div class="container pt-40 {% if c != "" %}pb-40{%endif %} mw-700">
+    <div class="row">
+      <div class="col-lg-6 d-flex flex-column justify-content-between">
+        <div class="mt-lg-5">
+          <div class="d-block d-lg-none mb-4">
+            {% include breadcrumbs.html %}
+          </div>
+          <h2 class="text-white mb-10">{{page.title}}</h2>
+          {% if page.description %}
+          <div class="text-white mb-20">{{page.description}}</div>
+          {% endif %}
+
+          <div class="team-content">
+            <ul class="personal-info">
+              {% if page.email %}
+              <li class="email">
+                <span><i class="glyph-icon flaticon-email"> </i> </span>
+                <a href="mailto:{{page.email}}">{{page.email}}</a>
+              </li>
+              {% endif %} {% if page.phone %}
+              <li class="phone">
+                <span><i class="glyph-icon flaticon-call"></i></span>
+                <a href="tel:{{page.phone}}">{{page.phone}}</a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="social-box text-left">
+            {% for item in page.socialMedia %}
+            <a href="{{item.link}}" class="fa fa-{{item.faIcon}}"></a>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="d-none d-lg-block">{% include breadcrumbs.html %}</div>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0 d-flex justify-content-lg-center">
+        <div class="image profile-page-photo">
+          <img src="{{page.photo}}" alt="" />
+        </div>
+      </div>
+    </div>
+    {% if c == "" %}
+    <div style="padding-top: 60px; border-bottom: 1px solid #fff"></div>
+    {% endif %}
+  </div>
+</div>
+{% if c != "" %}
+<div class="bg-light-yellow">
+  <!-- Breadcrumbs End -->
+  <div class="container pt-50 pb-100 mw-700">
+    <div class="shadow bg-white pt-50 pb-50">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 px-5 px-md-0">
+          <div class="markdown-body">{{content}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endif %}

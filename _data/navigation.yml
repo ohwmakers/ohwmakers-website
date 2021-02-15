@@ -1,0 +1,21 @@
+---
+- url: "/"
+  text: "Home"
+- url: "/program/"
+  text: Program
+- url: "/projects/"
+  text: Projects
+- url: "/community/"
+  text: Community
+  submenu:
+    - url: "/community/mentors/"
+      text: Mentors
+    - url: "/community/experts/"
+      text: Experts
+- url: "/team/"
+  text: Team
+- url: "/stories/"
+  text: Stories
+- url: "/contribute/"
+  text: Contribute
+  button: true
