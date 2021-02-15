@@ -53,7 +53,7 @@ partners:
   description: |
    Do you like what we do? We invite you to donate to OHM. Everything counts, we really appreciate your support!
   action:
-    link: "#"
+    link: "https://opencollective.com/open-hardware-makers/donate"
     text: Donate to OHM
   icon: /assets/images/icony/donate.png
 ---

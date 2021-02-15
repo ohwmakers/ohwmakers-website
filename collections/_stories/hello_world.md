@@ -2,7 +2,7 @@
 layout: post
 title: "Open Hardware Makers: a bit of history"
 date: 2020-02-05 10:18:00 +0100
-tag: "pilot"
+tag: "pilot program"
 featured-image: "/assets/images/posts/pilot.png"
 ---
 

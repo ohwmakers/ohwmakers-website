@@ -54,19 +54,19 @@ projectStages:
     - bg: "/assets/images/homepage/global_sprint.jpg"
       title: Global sprint
       description: >
-        Mentees will put what they have learned into practice by attending a
+        Mentees put what they have learned into practice by attending a
         global sprint near the end of the program. In this 2-day session they
-        will work on the final details for opening their projects to
-        contributions and will also contribute to their fellow mentees’ projects.
+        work on the final details for opening their projects to
+        contributions, and also contribute to their fellow mentees’ projects.
     - bg: "/assets/images/homepage/presentation.png"
       title: Public demo
       description: >
-        Mentees will showcase their projects during the last week
+        Mentees showcase their projects during the last week
         in a public call.
 
 
 apply:
-  subtitle: Lets get working
-  title: Join Open Hardware Makers as
+  subtitle: Let's work together
+  title: You can join Open Hardware Makers as...
   link: /community/
 ---
