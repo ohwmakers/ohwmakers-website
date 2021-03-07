@@ -1086,6 +1086,10 @@ carousel.orange-color .owl-nav .owl-next:hover i {
   margin-right: 10%;
 }
 
+.rs-slider.main-home {
+  min-height: 100vh;
+}
+
 @media only screen and (max-width: 1200px) {
   .member-photo {
     height: 275px;
@@ -1246,6 +1250,15 @@ carousel.orange-color .owl-nav .owl-next:hover i {
 
 // MOBILE RESPONSIVE
 @media only screen and (max-width: 491px) {
+  .rs-slider.main-home {
+    min-height: calc(100vh + 600px);
+  }
+  .rs-slider.main-home .slider-content .content-part {
+    padding-bottom: 750px;
+    h2 {
+      font-size: 24px;
+    }
+  }
   .post-nav-btn {
     white-space: nowrap;
     width: 200px;
@@ -1275,4 +1288,8 @@ carousel.orange-color .owl-nav .owl-next:hover i {
   .contrib-container {
     padding: 2rem 1rem;
   }
+}
+
+.wow {
+  visibility: hidden;
 }

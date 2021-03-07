@@ -54,13 +54,13 @@ layout: default
           </div>
           {% endif %}
           <h2
-            class="sub-title wow bounceInLeft text-white"
+            class="sub-title wow fadeInLeft text-white"
             data-wow-duration="2000ms"
           >
             {{slide.title}}
           </h2>
           <div
-            class="desc text-white wow bounceInRight text-white mb-4"
+            class="desc text-white wow fadeInRight text-white mb-4"
             data-wow-duration="2000ms"
           >
             {{slide.description}}
@@ -68,7 +68,8 @@ layout: default
           <div class="sl-btn wow fadeInUp" data-wow-duration="2000ms">
             <a
               class="readon btn-orange btn-hover-black main-home text-white"
-               target="_blank" href="https://forms.gle/NXAAPMvCf1H5WUK26"
+              target="_blank"
+              href="https://forms.gle/NXAAPMvCf1H5WUK26"
               >Pre-apply</a
             >
           </div>
@@ -79,7 +80,11 @@ layout: default
   </div>
 
   <!-- Features Section start -->
-  <div id="rs-features" class="rs-features main-home">
+  <div
+    id="rs-features"
+    class="rs-features main-home wow fadeInUp"
+    data-wow-duration="2000ms"
+  >
     <div class="container">
       <div class="row">
         {% for f in page.features %}
