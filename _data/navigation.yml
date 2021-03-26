@@ -12,7 +12,7 @@
       text: Mentors
     - url: "/community/experts/"
       text: Experts
-    - url: "/community/COC/"
+    - url: "/guidelines/"
       text: Code of Conduct
 - url: "/team/"
   text: Team
