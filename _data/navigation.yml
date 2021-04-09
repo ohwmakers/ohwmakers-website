@@ -12,6 +12,8 @@
       text: Mentors
     - url: "/community/experts/"
       text: Experts
+    - url: "/guidelines/"
+      text: Code of Conduct
 - url: "/team/"
   text: Team
 - url: "/stories/"
