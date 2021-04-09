@@ -33,8 +33,8 @@ programStructure:
 curriculum:
   icon: pen
   action:
-    text: "Coming soon"
-    link: "#"
+    text: "Curriculum"
+    link: "http://curriculum.openhardware.space/"
 # all the sections above use the same keys (odd, icon, action)
 # a list of available icons can be seen at \assets\fonts\flaticon.png
 
