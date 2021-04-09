@@ -45,3 +45,22 @@ $theme-colors: (
 @import "custom";
 
 @import "markdown";
+
+
+// CSS for Homepage buttons linking to forms
+
+.form-buttons {
+    margin-right:30px;
+            margin-top:30px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .form-buttons {
+        margin-right:0px;
+        margin-top:30px;
+    }
+    
+    
+}
