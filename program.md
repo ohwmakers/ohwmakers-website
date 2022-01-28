@@ -57,7 +57,7 @@ tabs:
         Willingness to publish all project details online
 
       commitment: >
-        - 5h/week for 15 weeks 
+        - 5h/week for 16 weeks <br>
 
         - Full-day availability for the Global sprint (week 13)
 
@@ -78,9 +78,9 @@ tabs:
 
         Has demonstrated an understanding and ability to work openly
       commitment: >
-        max. 1.5 hrs weekly for 15 weeks
+        - max. 2 hrs weekly for 16 weeks <br>
 
-        One-time mentors training, 1.5h
+        - One-time mentors training, 4hrs (one 3hrs session and one 1hr session)
 
     - title: Experts
       bg: "/assets/images/expert.jpeg"
@@ -90,11 +90,14 @@ tabs:
         Demonstrated expertise in their field
         Open to facilitate connections in their network
       commitment: >
-        One-time round of experts assessment of projects, 2h
-        45 min online meeting with interested participants on request
+        - One-time round of experts assessment of projects, 2h <br>
+        - 45 min online meeting with interested participants on request
 ---
 
 <!-- PAGE CONTENT -->
+
+
+
 
 {% capture whoIsItFor %}
 
@@ -131,7 +134,7 @@ You will learn and apply these best practices in order to design and build an op
 
 ## Program Structure
 
-15-weeks applying our **curriculum** to your own project, and preparing a demo to showcase at a **public call**. We support you with the following activities, all remote:
+16-weeks applying our **curriculum** to your own project, and preparing a demo to showcase at a **public call**. We support you with the following activities, all remote:
 
 ##### 1:1 mentorship meetings
 
