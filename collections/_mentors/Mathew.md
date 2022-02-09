@@ -1,6 +1,6 @@
 ---
 layout: profile
-photo: "/assets/images/mentor/Mathew_Lubari.jpg"
+photo: "/assets/images/mentor/Mathew.jpg"
 title: "Mathew Lubari"
 socialMedia:
   - faIcon: facebook

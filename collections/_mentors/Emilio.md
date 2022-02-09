@@ -1,6 +1,6 @@
 ---
 layout: profile
-photo: "/assets/images/mentor/Emilio_Velis.jpg"
+photo: "/assets/images/mentor/Emilio.jpg"
 title: "Emilio Velis"
 socialMedia:
   - faIcon: envelope

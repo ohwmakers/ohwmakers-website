@@ -1,6 +1,6 @@
 ---
 layout: profile
-photo: "/assets/images/mentor/Julien_Colomb.jpg"
+photo: "/assets/images/mentor/Julien.jpg"
 title: "Julien Colomb"
 socialMedia:
   - faIcon: envelope

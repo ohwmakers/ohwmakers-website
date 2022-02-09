@@ -1,6 +1,6 @@
 ---
 layout: profile
-photo: "/assets/images/mentor/artemis.jpg"
+photo: "/assets/images/mentor/Artemis.jpg"
 title: "Artemis Koumoundourou"
 socialMedia:
   #- faIcon: facebook

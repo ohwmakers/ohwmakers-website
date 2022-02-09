@@ -1,6 +1,6 @@
 ---
 layout: profile
-photo: "/assets/images/mentor/Dennis_Yaskevich.jpg"
+photo: "/assets/images/mentor/Dennis.jpg"
 title: "Dennis Yaskevich"
 socialMedia:
   - faIcon: linkedin
