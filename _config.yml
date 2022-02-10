@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ohwmakers.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/images/ohm-logo.svg"
+logo_png: "/assets/images/ohm-logo.png"
 twitter_username: openHWmakers
 github_username: ohwmakers
 disquss_shortname: openhardware-space # copy the shortname provided in your disquss admin panel
