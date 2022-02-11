@@ -7,8 +7,10 @@ socialMedia:
   #  link: "#"
   #- faIcon: instagram
   #  link: "#"
-  - faIcon: envelope
-    link: "https://www.hackster.io/cesar-j-mcf, https://uk.linkedin.com/in/cesar-jeri"
+  - faIcon: globe
+    link: "https://www.hackster.io/cesar-j-mcf" 
+  - faIcon: linkedin
+    link: "https://uk.linkedin.com/in/cesar-jeri"
 languages:
   - English
   - Spanish
