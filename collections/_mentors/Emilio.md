@@ -3,7 +3,7 @@ layout: profile
 photo: "/assets/images/mentor/Emilio.jpg"
 title: "Emilio Velis"
 socialMedia:
-  - faIcon: envelope
+  - faIcon: globe
     link: "https://emiliovelis.com"
 #  - faIcon: twitter
 #    link: "https://twitter.com/mathduckson"
