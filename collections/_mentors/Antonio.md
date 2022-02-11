@@ -7,7 +7,7 @@ socialMedia:
   #  link: "#"
   #- faIcon: instagram
   #  link: "#"
-  - faIcon: envelope
+  - faIcon: globe
     link: "http://fabacademy.org/2021/labs/agrilab/students/antonio-anaya/"
 languages:
   - English
