@@ -3,7 +3,7 @@ layout: profile
 photo: "/assets/images/mentor/Julien.jpg"
 title: "Julien Colomb"
 socialMedia:
-  - faIcon: envelope
+  - faIcon: globe
     link: "https://orcid.org/0000-0002-3127-5520"
 languages:
   - French
