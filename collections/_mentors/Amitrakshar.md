@@ -7,7 +7,7 @@ socialMedia:
   #  link: "#"
   #- faIcon: instagram
   #  link: "#"
-  - faIcon: envelope
+  - faIcon: github
     link: "https://amitrakshar01.github.io/"
 languages:
   - English
