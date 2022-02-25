@@ -31,6 +31,7 @@ To apply to the March 2022 OHM cohort please complete our [application form](htt
 
  <ul>
   <li> - Application opens: 24 January 2022</li>
+  <li> - Webinar for applicants: 28 February 2022</li>
   <li> - Applications closes: 7 March 2022</li>
   <li> - Cohort starts: 14 March 2022</li>
   <li> - Cohort ends: 1 July 2022</li>
