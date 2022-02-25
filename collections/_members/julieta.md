@@ -9,7 +9,7 @@ socialMedia:
     link: "https://github.com/thessaly"
   - faIcon: twitter
     link: "https://twitter.com/cassandreces"
-description: "STS Researcher at CENIT-UNSAM"
+description: "Sociology Postdoc at Drexel University & University of Bath"
 ---
 
 Hi there! I'm Julieta Arancio, a human born in Buenos Aires, Argentina and currently moving around Geneva, Switzerland. I'm interested in open technologies being used to produce fair and transformative science and technology, both inside and outside academia. As many people working in these topics, I have multiple hats.
