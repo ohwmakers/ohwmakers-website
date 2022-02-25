@@ -9,7 +9,8 @@ featured-image: "/assets/images/posts/we-are-open.jpg"
 *Applications for the March 2022 cohort of OHM are now OPEN, learn more in this blog post.*
 
 ***
-> [Apply now](https://forms.gle/vpn2FucUozVEcG5dA)
+> [Apply now to the March 2022 cohort, deadline updated: March 7](https://forms.gle/vpn2FucUozVEcG5dA)
+
 
 Dear Open Source Hardware community, friends, enthusiasts and allies: After a long incubation period, we are very happy to announce that **Open Hardware Makers (OHM) is ready to open its first 2022 cohort**!
 
@@ -50,12 +51,12 @@ We welcome applications from all around the world, at different stages of projec
 
 To apply to the March 2022 OHM cohort please complete our [application form](https://forms.gle/vpn2FucUozVEcG5dA).
 
-#### 🎯 Important dates
+#### 🎯 Important dates -updated-
 
  <ul>
   <li> - Application opens: 24 January 2022</li>
-  <li> - Applications closes: 28 February 2022</li>
-  <li> - Results communicated by: 7 March 2022</li>
+  <li> - Webinar for applicants: 28 February 2022</li>
+  <li> - Applications closes: 7 March 2022</li>
   <li> - Cohort starts: 14 March 2022</li>
   <li> - Cohort ends: 1 July 2022</li>
  </ul>
