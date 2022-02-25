@@ -6,7 +6,7 @@ tag: ["cohort1","program"]
 featured-image: "/assets/images/posts/dates.jpg"
 ---
 
-*Applications period for the March 2022 cohort is extended, new webinar for applicants!*
+**Applications period for the March 2022 cohort is extended, new webinar for applicants!**
 
 ***
 > [Apply now to the March 2022 cohort](https://forms.gle/vpn2FucUozVEcG5dA)
