@@ -14,8 +14,25 @@ socialMedia:
     link: "https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack"
 tags:
   - Cohort-1
-# hero:
-  # bgUrl: "/assets/images/project/project1.png"
-  # bgPosition: top
+#hero:
+  #bgUrl: ""
+  #bgPosition: top
 ---
 
+# ROSMO
+
+Rosmo is a small open hardware robot designed for ROS2, It uses 
+brushless motors with field orientated control. The modularity of each 
+component is important to us.
+
+## Documentation
+
+https://github.com/rosmo-robot/
+
+## Comms
+
+Social media: https://twitter.com/rosmorobot
+
+Youtube: https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA
+
+Hackaday https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack
