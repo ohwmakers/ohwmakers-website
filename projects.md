@@ -7,6 +7,6 @@ permalink: /projects/
   enabled: true
   collection: projects
   per_page: 200
-collection: projects
+collection: project
 bg: #"https://eufordigital.eu/wp-content/uploads/2020/02/mentorship3-2000w-scaled.jpg"
 ---
