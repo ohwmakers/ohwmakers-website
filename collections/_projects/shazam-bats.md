@@ -1,6 +1,6 @@
 ---
 layout: project
-photo: "/assets/images/project/aude-bats.jpg"
+photo: "/assets/images/project/aude-bats.jpeg"
 title: "Shazam for Bats & Birds"
 description: "The project aims to improve the technical capability of the first prototype of “Shazam for Bats” as well as establish it as an open-source hardware device. The new version will allow the recording and classification of bats and birds on the edge of the device. It hopes to support cities in their biodiversity action and in the monitoring of species occurrence"
 socialMedia:
