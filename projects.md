@@ -3,7 +3,7 @@
 layout: projects
 title: Projects and Mentees at OHM
 permalink: /projects/
-<!--pagination:
+pagination:
   enabled: true
   collection: projects
   per_page: 200

@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/scibots-team.jpg"
 title: "Sci-Bots"
-description: We develop next generation tools to automate and miniaturize biology and chemistry. Our portable and easy-to-use DropBot platform uses digital microfluidics to transform lab experiments into software instructions that can be optimized, shared to the cloud, and replicated anywhere in the world with perfect fidelity.
+description: "We develop next generation tools to automate and miniaturize biology and chemistry. Our portable and easy-to-use DropBot platform uses digital microfluidics to transform lab experiments into software instructions that can be optimized, shared to the cloud, and replicated anywhere in the world with perfect fidelity."
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/scibots"

@@ -1,6 +1,6 @@
 ---
 layout: project
-photo: "/assets/images/project/bluegreece.jpg"
+photo: "/assets/images/project/BlueGreece.jpg"
 title: "Blue Greece"
 description: "Blue Greece is building a diverse global Open Source Hardware platform for small-scale solar-powered Drinking Water Technology"
 socialMedia:

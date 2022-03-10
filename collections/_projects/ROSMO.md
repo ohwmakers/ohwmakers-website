@@ -1,10 +1,10 @@
 ---
 layout: project
-photo: "/assets/images/project/sam-rosmo.png"
+photo: "/assets/images/project/sam-rosmo.jpg"
 title: "ROSMO"
-description: Rosmo is a small open hardware robot designed for ROS2, It uses 
+description: "Rosmo is a small open hardware robot designed for ROS2, It uses 
 brushless motors with field orientated control. The modularity of each 
-component is important to us.
+component is important to us."
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/rosmorobot"
