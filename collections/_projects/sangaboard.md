@@ -16,12 +16,8 @@ The Sangaboard is a motor controller for unipolar stepper motors such as the che
 
 ## Documentation
 
-https://gitlab.com/sangavalerian/sangaboard
+[https://gitlab.com/sangavalerian/sangaboard](https://gitlab.com/sangavalerian/sangaboard)
 
 ## Mentee
 
 Eng. Valerian Sanga
-
-## Based in
-
-Tanzania
