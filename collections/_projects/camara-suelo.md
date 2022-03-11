@@ -25,3 +25,11 @@ https://gitlab.com/nanocastro/camara-respiracion-suelo
 ## Comms
 
 Instagram: @labagroecoayllu
+
+## Mentee
+
+Fernando Castro
+
+## Based in
+
+Argentina
