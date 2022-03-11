@@ -28,7 +28,3 @@ Instagram: @labagroecoayllu
 ## Mentee
 
 Fernando Castro
-
-## Based in
-
-Argentina
