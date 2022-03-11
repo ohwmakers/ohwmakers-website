@@ -2,14 +2,15 @@
 layout: project
 photo: "/assets/images/project/BlueGreece.jpg"
 title: "Blue Greece"
-description: "Mentee: Simon Meyer"
+description: "Mentee: Simon	Meyer"
+
 socialMedia:
   - faIcon: globe
     link: "https://bluegreece.miraheze.org"
 tags:
   - Cohort-1
 hero:
-  bgUrl: "/assets/images/project/BlueGreece.jpg"
+  #bgUrl: "/assets/images/project/BlueGreece.jpg"
   #bgPosition: top
 ---
 
@@ -22,5 +23,7 @@ Blue Greece is building a diverse global Open Source Hardware platform for small
 
 [https://bluegreece.miraheze.org](https://bluegreece.miraheze.org)
 
-## Mentee 
+
+## Mentee
 Simon Meyer
+

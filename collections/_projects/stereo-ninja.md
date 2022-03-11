@@ -12,8 +12,8 @@ socialMedia:
     link: "https://instagram.com/fablabmuc/"
 tags:
   - Cohort-1
-hero:
-  bgUrl: "/assets/images/project/ninjalogo.png"
+#hero:
+  #bgUrl: "/assets/images/project/ninjalogo.png"
   #bgPosition: top
 ---
 
@@ -27,9 +27,10 @@ Stereo Ninja is a DIY digital stereo microscope. It is based on a Raspberry Pi, 
 
 ## Comms
 
-- [https://twitter.com/FabLabMuc](https://twitter.com/FabLabMuc)
-- [facebook.com/FabLabMuc](facebook.com/FabLabMuc)
-- [instagram.com/fablabmuc/](instagram.com/fablabmuc/)
+- [Twitter](https://twitter.com/FabLabMuc)
+- [Facebook](https://facebook.com/FabLabMuc)
+- [Instagram](https://instagram.com/fablabmuc/)
+
 
 ## Mentee
 Andreas Kahler

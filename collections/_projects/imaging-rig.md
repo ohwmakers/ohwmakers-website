@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/ruya-imaging.jpg"
 title: "Imaging Rig"
-description: "Mentee: Ruya Meltem Sariyer"
+description: "Mentee: Ruya Meltem	Sariyer"
 socialMedia:
   - faIcon: facebook
     link: "https://facebook.com/ruyameltems"
@@ -24,10 +24,8 @@ Imaging Rig is a simple and rapid robotic microfluidic blood analysis method for
 [https://gitlab.com/ruyameltem/imaging_rig](https://gitlab.com/ruyameltem/imaging_rig)
 
 ## Comms
-
-- Facebook: [https://facebook.com/ruyameltems](https://facebook.com/ruyameltems)
-- Instragram: [https://instagram.com/ruyameltem](https://instagram.com/ruyameltem)
-
+- [Facebook](https://instagram.com/ruyameltems)
+- [Instragram](https://instagram.com/ruyameltem)
 
 ## Mentee
-Ruya Meltem Sariyer
+Ruya Meltem	Sariyer

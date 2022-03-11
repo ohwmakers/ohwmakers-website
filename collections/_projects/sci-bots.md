@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/scibots-team.jpg"
 title: "Sci-Bots"
-description: "Mentee: Sheldon Decombe"
+description: "Mentee: Sheldon	Decombe"
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/scibots"
@@ -12,8 +12,8 @@ socialMedia:
     link: "https://www.linkedin.com/company/sci-bots-inc"   
 tags:
   - Cohort-1
-hero:
-  bgUrl: "/assets/images/project/scibots-team.jpg"
+#hero:
+  #bgUrl: "/assets/images/project/scibots-team.jpg"
   #bgPosition: top
 ---
 
@@ -28,10 +28,11 @@ We develop next generation tools to automate and miniaturize biology and chemist
 
 ## Comms
 
-- Sci-Bots Inc. | LinkedIn [https://www.linkedin.com/company/sci-bots-inc](https://www.linkedin.com/company/sci-bots-inc)
-- We are @scibots on Twitter: [https://twitter.com/scibots](https://twitter.com/scibots)
-- Our GitHub page is: [https://github.com/sci-bots](https://github.com/sci-bots)
-- Facebook: [https://www.facebook.com/scibots/](https://www.facebook.com/scibots/)
+- [Sci-Bots Inc. | LinkedIn](https://www.linkedin.com/company/sci-bots-inc.)
+- We are [@scibots on Twitter](https://twitter.com/scibots)
+- Our [GitHub page](https://github.com/sci-bots)
+- [Facebook](https://www.facebook.com/scibots/)
 
 ## Mentee
-Sheldon Decombe
+Sheldon	Decombe
+

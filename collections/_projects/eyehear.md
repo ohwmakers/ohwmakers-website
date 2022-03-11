@@ -14,8 +14,8 @@ socialMedia:
     link: "https://engineeringgood.org"
 tags:
   - Cohort-1
-hero:
-  bgUrl: "/assets/images/project/hilda-eyehear.jpg"
+#hero:
+  #bgUrl: "/assets/images/project/hilda-eyehear.jpg"
   #bgPosition: top
 ---
 
@@ -33,3 +33,4 @@ Follow @engineeringgood on Instagram and visit the website: [engineeringgood.org
 
 ## Mentee
 Hilda Teo
+

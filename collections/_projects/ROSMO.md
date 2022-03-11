@@ -12,8 +12,9 @@ socialMedia:
     link: "https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack"
 tags:
   - Cohort-1
-hero:
-  bgUrl: "/assets/images/project/sam-rosmo.jpg"
+
+#hero:
+  #bgUrl: "/assets/images/project/sam-rosmo.jpg"
   #bgPosition: top
 ---
 
@@ -25,15 +26,17 @@ component is important to us.
 
 ## Documentation
 
-https://github.com/rosmo-robot/
+[https://github.com/rosmo-robot/](https://github.com/rosmo-robot/)
 
 ## Comms
 
-Social media: [https://twitter.com/rosmorobot](https://twitter.com/rosmorobot)
 
-Youtube: [https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
+[Twitter](https://twitter.com/rosmorobot)
 
-Hackaday [https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack](https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack)
+[Youtube](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
 
-## Mentee:
+[Hackaday](https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack)
+
+## Mentee
 Sam Rossiter
+

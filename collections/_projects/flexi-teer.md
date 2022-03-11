@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/ohm-logo.png"
 title: "Flexi-TEER"
-description: "Mentee: Michael Anderson" 
+description: "Mentee: Michael	Anderson" 
 socialMedia:
   - faIcon: twitter
     link: " https://twitter.com/jrtlab"
@@ -10,8 +10,8 @@ socialMedia:
     link: "https://twitter.com/md_anderson03"
 tags:
   - Cohort-1
-hero:
-  bgUrl: "/assets/images/ohm-logo.png"
+#hero:
+  #bgUrl: "/assets/images/ohm-logo.png"
   #bgPosition: top
 ---
 
@@ -21,12 +21,14 @@ Flexi-TEER is a Trans-Epithelial Electrical Resistance (TEER) device capable of 
 
 ## Documentation
 
-[https://github.com/mdanderson03/Flexi-TEER](https://github.com/mdanderson03/Flexi-TEER)
+
+[https://github.com/mdanderson03/Felxi-TEER](https://github.com/mdanderson03/Felxi-TEER)
 
 ## Comms
 
- - [https://twitter.com/jrtlab](https://twitter.com/jrtlab)
- - [https://twitter.com/md_anderson03](https://twitter.com/md_anderson03)
+ - [Twitter JRTLab](https://twitter.com/jrtlab)
+ - [Twitter Mentee](https://twitter.com/md_anderson03)
 
 ## Mentee
-Michael Anderson
+Michael	Anderson
+

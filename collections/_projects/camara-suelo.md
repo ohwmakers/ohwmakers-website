@@ -23,12 +23,8 @@ We aim to develop, test and document an open source and low-cost device to measu
 
 ## Comms
 
-Instagram: @labagroecoayllu
+[Instagram](https://instagram.com/labagroecoayllu)
 
 ## Mentee
 
 Fernando Castro
-
-## Based in
-
-Argentina
