@@ -11,7 +11,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/aude-bats.jpeg"
   #bgPosition: top
 ---
 
@@ -28,8 +28,10 @@ The project aims to improve the technical capability of the first prototype of â
 
 [Twitter](https://twitter.com/audevuill)
 [Instagram](https://instagram.com/gardensofthings)
+
  
 This project is affiliated to [@CASAUCL](https://twitter.com/CASAUCL) with support from [@djdunc](https://twitter.com/djdunc), [@ProKateJones](https://twitter.com/ProKateJones)
 
 ## Mentee
 Aude Vuilliomenet
+

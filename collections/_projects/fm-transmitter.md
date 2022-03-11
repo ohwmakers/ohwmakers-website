@@ -9,7 +9,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/andrew-FM.jpg"
   #bgPosition: top
 ---
 
@@ -21,5 +21,7 @@ Building an FM radio transmitter using a locally made plastic circuit board.
 
 [https://github.com/chardso/building-an-fm-radio-transmitter](https://github.com/chardso/building-an-fm-radio-transmitter)
 
+
 ## Mentee
 Andrew Wafela
+

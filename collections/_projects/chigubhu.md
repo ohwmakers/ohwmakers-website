@@ -8,8 +8,8 @@ socialMedia:
     link: "www.linkedin.com/in/aluwaine-tanaka-manyonga-62b71b15a"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/lanterns.jpg"
   #bgPosition: top
 ---
 
@@ -26,3 +26,4 @@ Making led lanterns reusing electronic waste, then reusing plastic water bottles
 
 ## Mentee
 Aluwaine Tanaka Manyonga
+

@@ -8,8 +8,8 @@ socialMedia:
     link: "https://github.com/jafsia/Local-manufacturing-of-open-source-devices-/tree/main/Stethoscope"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/jafsia.JPG"
   #bgPosition: top
 ---
 
@@ -19,7 +19,7 @@ Wireless digital stethoscope that can amplify, play, and record heart signals.
 
 ## Documentation
 
-https://github.com/jafsia/Local-manufacturing-of-open-source-devices-/tree/main/Stethoscope
+[https://github.com/jafsia/Local-manufacturing-of-open-source-devices-/tree/main/Stethoscope](https://github.com/jafsia/Local-manufacturing-of-open-source-devices-/tree/main/Stethoscope)
 
 ## Mentee
 

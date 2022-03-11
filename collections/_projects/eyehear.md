@@ -4,6 +4,10 @@ photo: "/assets/images/project/hilda-eyehear.jpg"
 title: "EyeHear"
 description: "Mentee: Hilda Teo"
 socialMedia:
+  #- faIcon: facebook
+  #  link: "#"
+  #- faIcon: instagram
+  #  link: "#"
   - faIcon: instagram
     link: "https://instagram.com/engineeringgood"
   - faIcon: globe
@@ -11,7 +15,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/hilda-eyehear.jpg"
   #bgPosition: top
 ---
 
@@ -29,3 +33,4 @@ Follow @engineeringgood on Instagram and visit the website: [engineeringgood.org
 
 ## Mentee
 Hilda Teo
+

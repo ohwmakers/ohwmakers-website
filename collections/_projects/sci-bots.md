@@ -13,7 +13,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/scibots-team.jpg"
   #bgPosition: top
 ---
 
@@ -35,3 +35,4 @@ We develop next generation tools to automate and miniaturize biology and chemist
 
 ## Mentee
 Sheldon	Decombe
+

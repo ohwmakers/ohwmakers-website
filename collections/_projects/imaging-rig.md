@@ -10,8 +10,8 @@ socialMedia:
     link: "https://instagram.com/ruyameltem"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/ruya-imaging.jpg"
   #bgPosition: top
 ---
 
@@ -24,7 +24,6 @@ Imaging Rig is a simple and rapid robotic microfluidic blood analysis method for
 [https://gitlab.com/ruyameltem/imaging_rig](https://gitlab.com/ruyameltem/imaging_rig)
 
 ## Comms
-
 - [Facebook](https://instagram.com/ruyameltems)
 - [Instragram](https://instagram.com/ruyameltem)
 

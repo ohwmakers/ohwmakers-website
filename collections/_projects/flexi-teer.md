@@ -11,7 +11,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/ohm-logo.png"
   #bgPosition: top
 ---
 
@@ -20,6 +20,7 @@ tags:
 Flexi-TEER is a Trans-Epithelial Electrical Resistance (TEER) device capable of computer automated TEER measurements that can plug into almost any platform. These measurements can be fixed frequencies, impedance spectroscopy, multiplexed and can even just be a standard EVOM meter.
 
 ## Documentation
+
 
 [https://github.com/mdanderson03/Felxi-TEER](https://github.com/mdanderson03/Felxi-TEER)
 
@@ -30,3 +31,4 @@ Flexi-TEER is a Trans-Epithelial Electrical Resistance (TEER) device capable of 
 
 ## Mentee
 Michael	Anderson
+

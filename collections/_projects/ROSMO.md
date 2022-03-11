@@ -12,6 +12,7 @@ socialMedia:
     link: "https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack"
 tags:
   - Cohort-1
+
 #hero:
   #bgUrl: "/assets/images/project/sam-rosmo.jpg"
   #bgPosition: top
@@ -29,6 +30,7 @@ component is important to us.
 
 ## Comms
 
+
 [Twitter](https://twitter.com/rosmorobot)
 
 [Youtube](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
@@ -37,3 +39,4 @@ component is important to us.
 
 ## Mentee
 Sam Rossiter
+

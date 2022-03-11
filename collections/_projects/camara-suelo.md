@@ -8,8 +8,8 @@ socialMedia:
     link: "https://instagram.com/labagroecoayllu"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/nano.jpg"
   #bgPosition: top
 ---
 

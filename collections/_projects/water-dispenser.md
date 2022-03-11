@@ -11,7 +11,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/richard-dispenser.jpg"
   #bgPosition: top
 ---
 

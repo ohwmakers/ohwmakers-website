@@ -8,8 +8,8 @@ socialMedia:
     link: "https://twitter.com/Spikeling1"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/eglantine.jpg"
   #bgPosition: top
 ---
 
@@ -19,11 +19,11 @@ Spikeling is an educational system mimicking neuronal behaviours. It is based on
 
 ## Documentation
 
-https://sussex-neuroscience.github.io/project/spikeling/
+[https://sussex-neuroscience.github.io/project/spikeling/](https://sussex-neuroscience.github.io/project/spikeling/)
 
 ## Comms
 
-https://twitter.com/Spikeling1
+[https://twitter.com/Spikeling1](https://twitter.com/Spikeling1)
 
 ## Mentee
 
