@@ -8,8 +8,8 @@ socialMedia:
     link: "https://instagram.com/labagroecoayllu"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/nano.jpg"
   #bgPosition: top
 ---
 
@@ -19,7 +19,7 @@ We aim to develop, test and document an open source and low-cost device to measu
 
 ## Documentation
 
-https://gitlab.com/nanocastro/camara-respiracion-suelo
+[https://gitlab.com/nanocastro/camara-respiracion-suelo](https://gitlab.com/nanocastro/camara-respiracion-suelo)
 
 ## Comms
 
