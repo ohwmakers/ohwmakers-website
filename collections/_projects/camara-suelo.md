@@ -14,8 +14,6 @@ tags:
 
 # Cámara de respiración de suelo
 
-![Team picture](/assets/images/project/nano.jpg)
-
 We aim to develop, test and document an open source and low-cost device to measure soil respiration that can be used by local farmers and researchers to assess soil health. 
 
 ## Documentation
