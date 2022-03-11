@@ -19,4 +19,7 @@ Blue Greece is building a diverse global Open Source Hardware platform for small
 
 ## Documentation
 
-https://bluegreece.miraheze.org
+[https://bluegreece.miraheze.org](https://bluegreece.miraheze.org)
+
+## Mentee
+Simon Meyer
