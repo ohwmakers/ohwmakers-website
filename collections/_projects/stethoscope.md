@@ -2,6 +2,7 @@
 layout: project
 photo: "/assets/images/project/jafsia.JPG"
 title: "Wireless Digital Stethoscope"
+description: "Mentee: Elisee Jafsia"
 socialMedia:
   - faIcon: github
     link: "https://github.com/jafsia/Local-manufacturing-of-open-source-devices-/tree/main/Stethoscope"
