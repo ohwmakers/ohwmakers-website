@@ -2,9 +2,7 @@
 layout: project
 photo: "/assets/images/project/sam-rosmo.jpg"
 title: "ROSMO"
-description: "Rosmo is a small open hardware robot designed for ROS2, It uses 
-brushless motors with field orientated control. The modularity of each 
-component is important to us."
+description: "Mentee: Sam Rossiter"
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/rosmorobot"
@@ -15,7 +13,7 @@ socialMedia:
 tags:
   - Cohort-1
 #hero:
-  #bgUrl: ""
+  #bgUrl: "/assets/images/project/sam-rosmo.jpg"
   #bgPosition: top
 ---
 
@@ -31,8 +29,11 @@ https://github.com/rosmo-robot/
 
 ## Comms
 
-Social media: https://twitter.com/rosmorobot
+Social media: [https://twitter.com/rosmorobot](https://twitter.com/rosmorobot)
 
-Youtube: https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA
+Youtube: [https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
 
-Hackaday https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack
+Hackaday [https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack](https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack)
+
+## Mentee
+Sam Rossiter
