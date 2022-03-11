@@ -25,15 +25,15 @@ component is important to us.
 
 ## Documentation
 
-https://github.com/rosmo-robot/
+[https://github.com/rosmo-robot/](https://github.com/rosmo-robot/)
 
 ## Comms
 
-Social media: [https://twitter.com/rosmorobot](https://twitter.com/rosmorobot)
+[Twitter](https://twitter.com/rosmorobot)
 
-Youtube: [https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
+[Youtube](https://www.youtube.com/channel/UC0p6hs0zBJJTfLzJAyBuZyA)
 
-Hackaday [https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack](https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack)
+[Hackaday](https://hackaday.io/project/183129-rosmo-robot-bldc-m5stack)
 
 ## Mentee
 Sam Rossiter
