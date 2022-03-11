@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/ruya-imaging.jpg"
 title: "Imaging Rig"
-description: "Imaging Rig is a simple and rapid robotic microfluidic blood analysis method for measuring platelet function by combining microfluidics with motion, optics and timelapse imaging properties."
+description: "Mentee: Ruya Meltem Sariyer"
 socialMedia:
   - faIcon: facebook
     link: "https://facebook.com/ruyameltems"
@@ -10,8 +10,8 @@ socialMedia:
     link: "https://instagram.com/ruyameltem"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/ruya-imaging.jpg"
   #bgPosition: top
 ---
 
@@ -21,9 +21,13 @@ Imaging Rig is a simple and rapid robotic microfluidic blood analysis method for
 
 ## Documentation
 
-https://gitlab.com/ruyameltem/imaging_rig
+[https://gitlab.com/ruyameltem/imaging_rig](https://gitlab.com/ruyameltem/imaging_rig)
 
 ## Comms
 
-- Facebook: ruyameltems
-- Instragram: ruyameltem
+- Facebook: [https://facebook.com/ruyameltems](https://facebook.com/ruyameltems)
+- Instragram: [https://instagram.com/ruyameltem](https://instagram.com/ruyameltem)
+
+
+## Mentee
+Ruya Meltem Sariyer

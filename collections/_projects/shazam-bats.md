@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/aude-bats.jpeg"
 title: "Shazam for Bats & Birds"
-description: "The project aims to improve the technical capability of the first prototype of “Shazam for Bats” as well as establish it as an open-source hardware device. The new version will allow the recording and classification of bats and birds on the edge of the device. It hopes to support cities in their biodiversity action and in the monitoring of species occurrence"
+description: "Mentee: Aude Vuilliomenet"
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/audevuill"
@@ -10,8 +10,8 @@ socialMedia:
     link: "https://www.instagram.com/gardensofthings"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/aude-bats.jpeg"
   #bgPosition: top
 ---
 
@@ -21,12 +21,15 @@ The project aims to improve the technical capability of the first prototype of �
 
 ## Documentation
 
-- https://connected-environments.org/portfolio/shazamforbats/
-- https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/smc2.12016
+- [https://connected-environments.org/portfolio/shazamforbats/](https://connected-environments.org/portfolio/shazamforbats/)
+- [https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/smc2.12016](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/smc2.12016)
 
 ## Comms
 
-@audevuill on Twitter
-@gardensofthings on Instagram
+[@audevuill](https://twitter.com/audevuill) on Twitter
+[@gardensofthings](https://www.instagram.com/gardensofthings) on Instagram
  
 This project is affiliated to [@CASAUCL](https://twitter.com/CASAUCL) with support from [@djdunc](https://twitter.com/djdunc), [@ProKateJones](https://twitter.com/ProKateJones)
+
+## Mentee
+Aude Vuilliomenet

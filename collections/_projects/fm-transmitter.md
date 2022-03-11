@@ -2,14 +2,14 @@
 layout: project
 photo: "/assets/images/project/andrew-FM.jpg"
 title: "Building an FM transmitter"
-description: Building  FM radio prototype using a locally made plastic circuit board and exploring components used in the making of radios
+description: "Mentee: Andrew Wafela"
 socialMedia:
   - faIcon: github
     link: "https://github.com/chardso/building-an-fm-radio-transmitter"
 tags:
   - Cohort-1
-#hero:
-  #bgUrl: ""
+hero:
+  bgUrl: "/assets/images/project/andrew-FM.jpg"
   #bgPosition: top
 ---
 
@@ -21,5 +21,8 @@ component is important to us.
 
 ## Documentation
 
-https://github.com/chardso/building-an-fm-radio-transmitter
+[https://github.com/chardso/building-an-fm-radio-transmitter](https://github.com/chardso/building-an-fm-radio-transmitter)
+
+## Mentee
+Andrew Wafela
 
