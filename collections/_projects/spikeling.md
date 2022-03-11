@@ -14,8 +14,6 @@ tags:
 
 # Spikeling
 
-![Team picture](/assets/images/project/eglantine.jpg)
-
 Spikeling is an educational system mimicking neuronal behaviours. It is based on an Arduino microcontroller, which runs the Izhikevich model of spiking neuron. 
 
 ## Documentation
@@ -26,3 +24,10 @@ https://sussex-neuroscience.github.io/project/spikeling/
 
 https://twitter.com/Spikeling1
 
+## Mentee
+
+Eglantine Vignal
+
+## Based in
+
+UK
