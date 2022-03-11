@@ -2,6 +2,7 @@
 layout: project
 photo: "/assets/images/project/eglantine.jpg"
 title: "Spikeling"
+description: "Mentee: Eglantine Vignal"
 socialMedia:
   - faIcon: twitter
     link: "https://twitter.com/Spikeling1"
