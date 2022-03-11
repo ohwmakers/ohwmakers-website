@@ -15,9 +15,7 @@ tags:
 
 # Building an FM radio transmitter
 
-Rosmo is a small open hardware robot designed for ROS2, It uses 
-brushless motors with field orientated control. The modularity of each 
-component is important to us.
+Building an FM radio transmitter using a locally made plastic circuit board. 
 
 ## Documentation
 
