@@ -2,7 +2,7 @@
 layout: project
 photo: "/assets/images/project/hilda-eyehear.jpg"
 title: "EyeHear"
-description: "EyeHear is a wearable device that turns speech into scrolling text displayed on a tiny screen clipped to a pair of glasses to support the deaf and hard of hearing to participate in more face to face interactions."
+description: "Mentee: Hilda Teo"
 socialMedia:
   - faIcon: instagram
     link: "https://instagram.com/engineeringgood"
@@ -26,3 +26,6 @@ https://engineeringgood.notion.site/EyeHear-openSource-HMD-87bfb0203f804d4cbbf9a
 ## Comms
 
 Follow @engineeringgood on Instagram and visit the website: [engineeringgood.org](engineeringgood.org)
+
+## Mentee
+Hilda Teo
