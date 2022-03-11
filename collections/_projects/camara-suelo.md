@@ -2,6 +2,7 @@
 layout: project
 photo: "/assets/images/project/nano.jpg"
 title: "Cámara de respiración de suelo"
+description: "Mentee: Fernando Castro"
 socialMedia:
   - faIcon: instagram
     link: "https://instagram.com/labagroecoayllu"
