@@ -1,6 +1,6 @@
 ---
 layout: project
-photo: "/assets/images/project/ohm-logo.png"
+photo: "/assets/images/ohm-logo.png"
 title: "Sangaboard"
 description: "Mentee: Valerian Sanga"
 tags:
