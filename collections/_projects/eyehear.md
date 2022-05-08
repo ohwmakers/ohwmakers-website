@@ -25,7 +25,7 @@ EyeHear is a wearable device that turns speech into scrolling text displayed on 
 
 ## Documentation
 
-[https://engineeringgood.notion.site/EyeHear-openSource-HMD-87bfb0203f804d4cbbf9a4d9acd79cd7](https://engineeringgood.notion.site/EyeHear-openSource-HMD-87bfb0203f804d4cbbf9a4d9acd79cd7)
+[https://github.com/Engineering-Good/EyeHear](https://github.com/Engineering-Good/EyeHear)
 
 ## Comms
 

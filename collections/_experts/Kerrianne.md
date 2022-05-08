@@ -12,7 +12,9 @@ socialMedia:
 languages:
   - English
 description: I am a researcher at the University of Bath that works with optical fibers, with a focus on hollow core optical fibers. These are exciting as they guide in air instead of glass. I will use them to guide deep-UV light for clinical applications.
-  - cohort1
+
+tags: 
+- cohort1
 
 ---
 
