@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Closing Cohort 1: Join our public call!"
-date: 2022-06-17 12:13:00 +0000
+title: "Closing Cohort 1 - Join our public call!"
+date: 2022-06-17 06:13:00 +0000
 tag: ["cohort1","program"]
 featured-image: "/assets/images/posts/party.jpg"
 ---
 
-*We invite you to join our end-of-program public call and celebrate together our first OHM Cohort.*
+  
+
+*We invite you to join our end-of-program public call and celebrate together our first OHM Cohort.* 
+  
 
 ***
 
@@ -19,9 +22,10 @@ Join us in celebrating the work of our mentees at the Open Hardware Makers publi
 ## Practical info
 
 - When: June 27th at 16:00 UK time
-- Where: you can join the Zoom call (please register here) or follow the streaming on the OHM Youtube channel
+- Where: you can join the Zoom call [(please register here)](https://universityofsussex.zoom.us/meeting/register/tJMkd--qqDoqGdRadK16SIvXuTbJULhLGbNr) or follow the streaming on the OHM Youtube channel
 
 See you there :)
 
-*Photo by <a href="https://unsplash.com/@marisolbenitez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marisol Benitez</a> on <a href="https://unsplash.com/s/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
+
   
+*Photo by <a href="https://unsplash.com/@marisolbenitez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marisol Benitez</a> on <a href="https://unsplash.com/s/photos/celebration?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
