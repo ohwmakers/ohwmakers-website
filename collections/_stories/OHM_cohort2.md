@@ -2,7 +2,7 @@
 layout: post
 title: "Cohort 2 call for projects!"
 date: 2022-08-02 12:13:00 +0000
-tag: ["cohort1","program"]
+tag: ["cohort2","program"]
 featured-image: "/assets/images/posts/we-are-open.jpg"
 ---
 
