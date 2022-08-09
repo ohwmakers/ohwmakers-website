@@ -9,7 +9,7 @@ featured-image: "/assets/images/posts/we-are-open.jpg"
 *Applications for the OHM cohort starting on October 2022 are now OPEN, learn more in this blog post.*
 
 ***
-> [Apply now to the cohort starting on October 2022, deadline: September 2nd](https://forms.gle/vpn2FucUozVEcG5dA)
+> [Apply now to the cohort starting on October 2022, deadline: September 2nd](https://forms.gle/a66jhAgLSR4PBKPf7)
 
 
 Dear Open Source Hardware community, friends, enthusiasts and allies: We are very happy to announce that **Open Hardware Makers (OHM) is ready to open its second 2022 cohort**!
