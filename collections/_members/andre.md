@@ -9,7 +9,7 @@ socialMedia:
     link: "https://github.com/amchagas"
   - faIcon: twitter
     link: "https://twitter.com/chagas_am"
-description: Research bioengineer at University of Sussex
+description: Scientific Officer at University of Sussex
 ---
 
 I’m passionate about open science and open source hardware, and how those two can be used to increase research and education reach around the world. I have a background in Neurosciences and have been developing affordable open science hardware and teaching others to do so via workshops, talks and outreach events.
