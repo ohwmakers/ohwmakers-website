@@ -57,9 +57,9 @@ tabs:
         Willingness to publish all project details online
 
       commitment: >
-        - 5h/week for 16 weeks <br>
+        - 5h/week for 8 weeks <br>
 
-        - Full-day availability for the Global sprint (week 13)
+        - Full-day availability for the Global sprint (week 7)
 
       # these sections are predefined,
       # they must carry their respective names (role, criteria, commitment) to be applied
@@ -78,7 +78,7 @@ tabs:
 
         Has demonstrated an understanding and ability to work openly
       commitment: >
-        - max. 2 hrs weekly for 16 weeks <br>
+        - max. 2 hrs weekly for 8 weeks <br>
 
         - One-time mentors training, 4hrs (one 3hrs session and one 1hr session)
 
@@ -134,7 +134,7 @@ You will learn and apply these best practices in order to design and build an op
 
 ## Program Structure
 
-16-weeks applying our **curriculum** to your own project, and preparing a demo to showcase at a **public call**. We support you with the following activities, all remote:
+8-weeks applying our **curriculum** to your own project, and preparing a demo to showcase at a **public call**. We support you with the following activities, all remote:
 
 ##### 1:1 mentorship meetings
 

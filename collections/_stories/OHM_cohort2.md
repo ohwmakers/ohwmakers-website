@@ -9,7 +9,7 @@ featured-image: "/assets/images/posts/we-are-open.jpg"
 *Applications for the OHM cohort starting on October 2022 are now OPEN, learn more in this blog post.*
 
 ***
-> [Apply now to the cohort starting on October 2022, deadline: September 2nd](https://forms.gle/a66jhAgLSR4PBKPf7)
+> [Apply now to the cohort starting on October 2022, deadline: September 12th](https://forms.gle/a66jhAgLSR4PBKPf7)
 
 
 Dear Open Source Hardware community, friends, enthusiasts and allies: We are very happy to announce that **Open Hardware Makers (OHM) is ready to open its second 2022 cohort**!
@@ -22,7 +22,7 @@ OHM is an online mentorship program for open source hardware projects and their 
 
 ### How does OHM work?
 
-Open Hardware Makers is organized in 16-weeks cohorts; during this time participants go through 8 hands-on modules, each taking 2 weeks to complete. The complete Open Hardware Makers Curriculum can be found [here](https://curriculum.openhardware.space).   
+Open Hardware Makers is organized in 8-weeks cohorts; during this time participants go through 8 hands-on modules, each taking 1 week to complete. The complete Open Hardware Makers Curriculum can be found [here](https://curriculum.openhardware.space).   
 
 ![OHM Outline](/assets/images/posts/path.png)
 
@@ -58,9 +58,9 @@ To apply to the cohort starting in October 2022 please complete our [application
 
  <ul>
   <li> - Application opens: August 2nd 2022</li>
-  <li> - Applications closes: September 2nd 2022</li>
-  <li> - Cohort starts: October 3rd 2022</li>
-  <li> - Cohort ends: February 19th 2023 (there will be a break at the end of december/beg of January)</li>
+  <li> - Applications closes: September 12th 2022</li>
+  <li> - Cohort starts: October 10th 2022</li>
+  <li> - Cohort ends: December 9th 2022 </li>
  </ul>
  <br>
 
