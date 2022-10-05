@@ -16,6 +16,7 @@ languages:
 description: I have a BSc in Molecular Biology & Genetics and a MSc in Cellular & Molecular Neuroscience. I am currently doing my PhD, where I investigate molecular mechanisms of synapse maintenance. During my BSc I got certified in Teaching and Pedagogics. 
 tags:
   - cohort1
+  - cohort2
 
 ---
 

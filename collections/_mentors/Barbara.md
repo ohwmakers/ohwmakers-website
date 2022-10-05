@@ -17,6 +17,7 @@ languages:
 description: I am the coordinator of the Internet of Production Alliance, working on the digital infrastructure to enable anyone, everywhere, to participate in manufacturing. I work on strategy, innovation and project implementation.
 tags:
   - cohort1
+  - cohort2
 
 ---
 

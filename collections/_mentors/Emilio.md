@@ -16,6 +16,7 @@ languages:
 description: I work on open hardware, sustainability and social innovation.
 tags:
   - cohort1
+  - cohort2
 ---
 ## Affiliation:
 - Appropedia Foundation

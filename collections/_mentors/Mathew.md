@@ -15,6 +15,7 @@ languages:
 description: I'm a South Sudanese refugee living in Rhino Camp Refugee Settlement in Uganda, an ICT practitioner passionate in both software and hardware. I'm also fixer and advocate for environmental protection through repair and reuse.
 tags:
   - cohort1
+  - cohort2
 ---
 ## Based in:
 - Uganda
