@@ -16,6 +16,7 @@ languages:
 description: I am a mechanical engineer with focus on Optics and Microscopy. During my PhD I worked on the UC2 project, specializing on documentation, hardware design, and applications in the educational area. 
 tags:
   - cohort1
+  - cohort2
 
 ---
 

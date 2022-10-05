@@ -17,6 +17,7 @@ languages:
 description: I am a tech guy, currently studying electrical engineering in my final year with the University of Zimbabwe. I have a backgroung in electronics and computer programming using python, java, javascript, html and Html.
 tags:
   - cohort1
+  - cohort2
 
 ---
 
