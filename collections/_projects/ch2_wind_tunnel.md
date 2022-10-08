@@ -19,7 +19,7 @@ The flat pack mini-wind tunnel project aims to inspire the next generation by br
 
 ## Documentation
 
-[https://github.com/ccg-esb-lab/BAFFLE](https://github.com/ccg-esb-lab/BAFFLE)
+[demo video](https://www.youtube.com/watch?v=0XW0-MNWmnE)
 
 ## Comms
 
