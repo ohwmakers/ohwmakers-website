@@ -14,7 +14,8 @@ languages:
   - Kiswahili
 description: Public Interest Technologist and Researcher exploring policy frameworks that support technology design, adoption, and use for diverse communities.
 tags:
-  - cohort2
+- cohort1
+
 
 ---
 ## Affiliation:

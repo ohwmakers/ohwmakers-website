@@ -17,7 +17,6 @@ languages:
 description: Product development, smart buildings, home automation, smart cities, real estate, procurement, 3D printing, general tinkering, Internet of Things, 5G, start ups.
 tags:
   - cohort1
-  - cohort2
 
 ---
 
