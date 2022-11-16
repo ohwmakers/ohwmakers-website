@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nico Méndez open pipetting robot discussed on YouTube"
-date: 2022-11-16 12:13:00 +0000
+date: 2022-11-16 08:13:00 +0000
 tag: ["cohort2","program"]
 featured-image: "/assets/images/project/cohort2/liquid_handling/mender.png"
 ---
