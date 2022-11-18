@@ -6,11 +6,11 @@ tag: ["cohort2","program"]
 featured-image: "/assets/images/project/cohort2/liquid_handling/mender.png"
 ---
 
-[![Interview with Nico Mendez - Open pipetting robot](https://res.cloudinary.com/marcomontalbano/image/upload/v1668775128/video_to_markdown/images/youtube--KpWH2y9TRrs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=KpWH2y9TRrs "Interview with Nico Mendez - Open pipetting robot")
-
 On Wednesday 11-9, Nicolás Méndez, one of the mentees of the second cohort of Open Hardware Makers programme, [had a conversation on live stream with Tiago Lubiana](https://youtu.be/KpWH2y9TRrs), host of [Wiki Convida](https://www.youtube.com/playlist?list=PLEmJ1V6HikFRRaCui2f-Y5VOygksZKNoP), a YouTube show supported by Wiki Movimento Brasil. 
 
 Nicolás was at home in Buenos Aires, Argentina; Tiago, at Río de Janeiro, Brasil. They had met two weeks earlier in Panama, during the [Gathering of Open Science Hardware GOSH 2022](https://gathering2022.openhardware.science/). There, Nico had assembled and shown his open source project: [The liquid handling platform](https://openhardware.space/projects/cohort2/ch2_liquid_handling_platform/), a pipetting robot for lab automation that he made along with Gastón Corthey and Martin Gambarotta from TECSCI (Technology for Science), a local start-up that develops manufactures, and commercializes open science hardware.
+
+[![Interview with Nico Mendez - Open pipetting robot](https://res.cloudinary.com/marcomontalbano/image/upload/v1668775128/video_to_markdown/images/youtube--KpWH2y9TRrs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=KpWH2y9TRrs "Interview with Nico Mendez - Open pipetting robot")
 
 Nicolás has been working on this robot for a while, including the recent [reGOSH two weeks residency in Mendoza, Argentina](https://regosh.libres.cc/en/residencies/residency-mendoza-2022/), and is currently improving on it in our Open Hardware Makers programme. This year, The liquid handling platform got funding from[ GOSH’s 2022 Collaborative Development Program Round 1](https://forum.openhardware.science/t/apply-here-for-gosh-s-2022-collaborative-development-program-round-1/3380) and [Round 2](https://forum.openhardware.science/t/results-phase-2-of-collaborative-development-program/4245). The documentation is [available in Gitlab](https://gitlab.com/pipettin-bot/pipettin-grbl), with  [video demos in YouTube](https://youtu.be/dh-6NOpwQ7U). Also there is complementary information [on this thread in the GOSH forum](https://forum.openhardware.science/t/pipetting-bot-project-presentation/3797).
 
