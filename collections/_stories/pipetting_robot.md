@@ -6,7 +6,7 @@ tag: ["cohort2","program"]
 featured-image: "/assets/images/project/cohort2/liquid_handling/mender.png"
 ---
 
-
+[![Interview with Nico Mendez - Open pipetting robot](https://res.cloudinary.com/marcomontalbano/image/upload/v1668775128/video_to_markdown/images/youtube--KpWH2y9TRrs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=KpWH2y9TRrs "Interview with Nico Mendez - Open pipetting robot")
 
 On Wednesday 11-9, Nicolás Méndez, one of the mentees of the second cohort of Open Hardware Makers programme, [had a conversation on live stream with Tiago Lubiana](https://youtu.be/KpWH2y9TRrs), host of [Wiki Convida](https://www.youtube.com/playlist?list=PLEmJ1V6HikFRRaCui2f-Y5VOygksZKNoP), a YouTube show supported by Wiki Movimento Brasil. 
 
