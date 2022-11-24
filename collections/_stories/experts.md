@@ -6,6 +6,8 @@ tag: ["program"]
 featured-image: "/assets/images/posts/passion.jpg"
 ---
 
+
+
 Open Hardware Makers program has three central roles, Mentees, who work to on their projects to implement open hardware best practices, Mentors supporting the mentee’s journey and Experts, sharing deep knowledge on specific topics. Here we share more details on the experts role, their importance to the program and their hard work during expert review week!  
 
 OHM Experts have different work and perspectives towards open hardware, some have business experience, some have a policy making background, some are researchers in academia. Most importantly they are available upon request throughout the program when mentors and mentees decide a project can make use of an expert consultation. These punctual meetings can really leap forward areas of a project and support mentees getting out of a sticking point.   
