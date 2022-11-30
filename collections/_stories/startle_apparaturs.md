@@ -3,7 +3,7 @@ layout: post
 title: " Open neuropsychiatric research? Meet Royhaan Folarin and the open startle reflex apparatus"
 date: 2022-11-30 08:13:00 +0000
 tag: ["program","cohort2"]
-featured-image: "/assets/images/posts/passion.jpg"
+featured-image: "/assets/images/posts/brain.jpg"
 ---
 
 
@@ -27,3 +27,6 @@ His mentor is Artemis Koumoundourou, who helped him with logistic recommendation
 
 Royhaan holds great expectations for the impact of the open startle reflex apparatus. “I imagine that the low-cost startle apparatus would benefit the vast community of researchers from low-resource settings who model neuropsychiatric disorders using rodents in order to further standardise their modelling protocols, as they pursue more understanding and thus cure for the disorder”, he emphasises.  
 
+
+Header photo by <a href="https://unsplash.com/@averey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robina Weermeijer</a> on <a href="https://unsplash.com/s/photos/mouse-dementia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
