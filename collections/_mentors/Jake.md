@@ -11,8 +11,8 @@ socialMedia:
     link: "http://clank.tools/"
   #- faIcon: instagram
   #  link: "#"
-  - faIcon: twitter
-    link: "https://twitter.com/MsKiden"
+  - faIcon: globe
+    link: "https://jakeread.pages.cba.mit.edu/home/"
 languages:
   - English
 
