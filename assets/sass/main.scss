@@ -18,27 +18,27 @@ $theme-colors: (
 @import "bootstrap/bootstrap";
 
 // font-awesome css
-@import "assets/css/font-awesome.min";
+@import "../css/font-awesome.min";
 // animate css
-@import "assets/css/animate";
+@import "../css/animate";
 // owl.carousel css
-@import "assets/css/owl.carousel";
+@import "../css/owl.carousel";
 // slick css
-@import "assets/css/slick";
+@import "../css/slick";
 // off canvas css
-@import "assets/css/off-canvas";
+@import "../css/off-canvas";
 // linea-font css
-@import "assets/fonts/linea-fonts";
+@import "../fonts/linea-fonts";
 // flaticon css
-@import "assets/fonts/flaticon";
+@import "../fonts/flaticon";
 // magnific popup css
-@import "assets/css/magnific-popup";
+@import "../css/magnific-popup";
 // Main Menu css
-@import "assets/css/rsmenu-main";
+@import "../css/rsmenu-main";
 // spacing css
-@import "assets/css/rs-spacing";
+@import "../css/rs-spacing";
 // responsive css
-@import "assets/css/responsive";
+@import "../css/responsive";
 // educavo theme scss
 @import "theme";
 
@@ -50,17 +50,15 @@ $theme-colors: (
 // CSS for Homepage buttons linking to forms
 
 .form-buttons {
-    margin-right:30px;
-            margin-top:30px;
+  margin-right:30px;
+          margin-top:30px;
 
 }
 
 @media screen and (max-width: 600px) {
 
-    .form-buttons {
-        margin-right:0px;
-        margin-top:30px;
-    }
-    
-    
+  .form-buttons {
+      margin-right:0px;
+      margin-top:30px;
+  }
 }

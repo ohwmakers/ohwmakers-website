@@ -31,8 +31,10 @@
   display: inline-block;
 }
 
+// The '/' operator for division in plain Sass expressions is being deprecated.
+// should use Sass module ( math.div()) or calc() instead.
 .figure-img {
-  margin-bottom: $spacer / 2;
+  margin-bottom: calc($spacer / 2);
   line-height: 1;
 }
 

@@ -1,13 +1,13 @@
-/** 
-* 
+/**
+*
 * -----------------------------------------------------------------------------
 *
 * Template : Educavo - Education HTML Template
 * Author : rs-theme
-* Author URI : http://www.rstheme.com/ 
+* Author URI : http://www.rstheme.com/
 *
 * -----------------------------------------------------------------------------
-* 
+*
 **/
 
 /* TABLE OF CONTENT
@@ -53,6 +53,7 @@
     39. Preloader CSS
 
 --------------------------------------------------------*/
+@use "sass:color";
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900");
 $body-font: "Rubik", sans-serif;
@@ -475,7 +476,7 @@ blockquote {
     background: $primary-color;
     padding: 16px 58px;
     &:hover {
-      background: darken($primary-color, 5%);
+      background: color.adjust($primary-color, $lightness:  5%);
     }
   }
   &.purple-btn {
@@ -543,8 +544,8 @@ blockquote {
     }
     &:hover {
       color: $white-color;
-      background: darken($orange-color, 10%);
-      border-color: darken($orange-color, 10%);
+      background: color.adjust($orange-color, $lightness:  10%);
+      border-color: color.adjust($orange-color, $lightness:  10%);
     }
     &.transparent {
       &:hover {
@@ -591,7 +592,7 @@ blockquote {
     width: 100%;
     border-radius: 5px;
     &:hover {
-      background: darken($orange-color, 5%);
+      background: color.adjust($orange-color, $lightness:  5%);
     }
   }
   &.submit-btn {
@@ -686,12 +687,12 @@ blockquote {
   &.orange {
     background: $orange-color;
     &:hover {
-      background: darken($orange-color, 5%);
+      background: color.adjust($orange-color, $lightness:  5%);
     }
   }
 
   &:hover {
-    background: darken($primary-color, 5%);
+    background: color.adjust($primary-color, $lightness:  5%);
     color: $white-color;
   }
 }
@@ -805,7 +806,7 @@ blockquote {
     background: $orange-color;
     color: $white-color;
     &:hover {
-      background: darken($orange-color, 10%);
+      background: color.adjust($orange-color, $lightness:  10%);
     }
   }
 }
@@ -1047,7 +1048,7 @@ blockquote {
   color: $orange-color !important;
 }
 .dark-parimary-bg {
-  background: darken($secondary-color, 5%) !important;
+  background: color.adjust($secondary-color, $lightness: 5%) !important;
 }
 ul.listing-style {
   li {
@@ -1438,7 +1439,7 @@ ul.listing-style {
             padding: 12px 35px;
             display: inline-block;
             &:hover {
-              background: lighten($primary-color, 5%);
+              background: color.adjust($primary-color, $lightness: 5%);
             }
           }
           &:last-child {
@@ -1494,7 +1495,7 @@ ul.listing-style {
               text-transform: uppercase;
               &:hover {
                 color: $white-color;
-                background: darken($orange-color, 10%);
+                background: color.adjust($orange-color, $lightness:  10%);
               }
             }
             &:last-child {
@@ -1550,7 +1551,7 @@ ul.listing-style {
                 text-transform: uppercase;
                 &:hover {
                   color: $white-color;
-                  background: darken($orange-color, 10%);
+                  background: color.adjust($orange-color, $lightness:  10%);
                 }
               }
               &:last-child {
@@ -1611,7 +1612,7 @@ ul.listing-style {
               text-transform: uppercase;
               &:hover {
                 color: $white-color;
-                background: darken($yellow-color, 10%);
+                background: color.adjust($yellow-color, $lightness: 10%);
               }
             }
             &:last-child {
@@ -2461,7 +2462,7 @@ ul.listing-style {
                 color: $title-color;
               }
               .woocommerce-mini-cart .crt-btn:hover {
-                background: darken($white-color, 5%);
+                background: color.adjust($white-color, $lightness: 5%);
               }
               &.cart-inner {
                 border-color: #a9b1c2;
@@ -3019,7 +3020,7 @@ ul.listing-style {
               padding: 11px 24px;
               border-radius: 30px;
               &:hover {
-                background: darken($primary-color, 10%);
+                background: color.adjust($primary-color, $lightness: 10%);
               }
             }
             .nav-expander {
@@ -3035,7 +3036,7 @@ ul.listing-style {
                 display: inline-block;
               }
               &:hover {
-                color: darken($white-color, 10%);
+                color: color.adjust($white-color, $lightness: 10%);
               }
             }
           }
@@ -3182,7 +3183,7 @@ ul.listing-style {
                 color: $title-color;
               }
               .woocommerce-mini-cart .crt-btn:hover {
-                background: darken($white-color, 5%);
+                background: color.adjust($white-color, $lightness: 5%);
               }
             }
             .apply-btn {
@@ -3209,7 +3210,7 @@ ul.listing-style {
                 display: inline-block;
               }
               &:hover {
-                color: darken($white-color, 10%);
+                color: color.adjust($white-color, $lightness: 10%);
               }
             }
           }
@@ -3404,7 +3405,7 @@ ul.listing-style {
               color: $title-color;
             }
             .woocommerce-mini-cart .crt-btn:hover {
-              background: darken($white-color, 5%);
+              background: color.adjust($white-color, $lightness: 5%);
             }
           }
           .apply-btn {
@@ -4803,7 +4804,7 @@ body {
           }
         }
         &:hover {
-          background: darken($orange-color, 10%);
+          background: color.adjust($orange-color, $lightness:  10%);
         }
       }
       .owl-next {
@@ -7014,7 +7015,7 @@ body {
             }
             &:hover {
               i:before {
-                background: darken($orange-color, 5%);
+                background: color.adjust($orange-color, $lightness:  5%);
               }
             }
           }
@@ -7678,7 +7679,7 @@ body {
           a {
             color: $white-color;
             &:hover {
-              color: darken($white-color, 20%);
+              color: color.adjust($white-color, $lightness:  20%);
             }
           }
         }
@@ -7693,7 +7694,7 @@ body {
             padding-bottom: 0;
             border-bottom: 1px solid $white-color;
             &:hover {
-              color: darken($white-color, 20%);
+              color: color.adjust($white-color, $lightness:  20%);
             }
           }
         }
@@ -9309,7 +9310,7 @@ body {
         margin: 0 6px;
         padding: 3px 0;
         border-radius: 30px;
-        background: darken($orange-color, 10%);
+        background: color.adjust($orange-color, $lightness:  10%);
         border: none;
         transition: $transition;
         &:hover,
@@ -9392,7 +9393,7 @@ body {
         margin: 0 6px;
         padding: 3px 0;
         border-radius: 30px;
-        background: darken($orange-color, 10%);
+        background: color.adjust($orange-color, $lightness:  10%);
         border: none;
         transition: $transition;
         &:hover,
@@ -11001,8 +11002,8 @@ body {
       border-color: $orange-color;
       background: $orange-color;
       &:hover {
-        border-color: darken($orange-color, 10%);
-        background: darken($orange-color, 10%);
+        border-color: color.adjust($orange-color, $lightness:  10%);
+        background: color.adjust($orange-color, $lightness:  10%);
       }
     }
   }
@@ -11094,7 +11095,7 @@ body {
               font-size: 14px;
               display: inline-block;
               &:hover {
-                background: darken($orange-color, 10%);
+                background: color.adjust($orange-color, $lightness:  10%);
               }
             }
           }
@@ -11167,7 +11168,7 @@ body {
               a {
                 background: $green-color;
                 &:hover {
-                  background: darken($green-color, 10%);
+                  background: color.adjust($green-color, $lightness:  10%);
                 }
               }
             }
@@ -11214,7 +11215,7 @@ body {
         margin: 0 6px;
         padding: 3px 0;
         border-radius: 30px;
-        background: darken($green-color, 10%);
+        background: color.adjust($green-color, $lightness:  10%);
         border: none;
         transition: $transition;
         &:hover,
@@ -12212,7 +12213,7 @@ body {
           padding: 17px 40px;
           transition: $transition;
           &:hover {
-            background: lighten($secondary-color, 5%);
+            background: color.adjust($secondary-color, $lightness: 5%);
           }
         }
       }
@@ -12262,7 +12263,7 @@ body {
           padding: 17px 40px;
           transition: $transition;
           &:hover {
-            background: lighten($primary-color, 5%);
+            background: color.adjust($primary-color, $lightness: 5%);
           }
         }
       }
@@ -12350,7 +12351,7 @@ body {
           transition: $transition;
           border-radius: 0 0 5px 5px;
           &:hover {
-            background: lighten($secondary-color, 5%);
+            background: color.adjust($secondary-color, $lightness: 5%);
           }
         }
         #email {
@@ -12408,7 +12409,7 @@ body {
           transition: $transition;
           border-radius: 0 3px 3px 0;
           &:hover {
-            background: lighten($secondary-color, 5%);
+            background: color.adjust($secondary-color, $lightness: 5%);
           }
         }
         #email {
@@ -12462,7 +12463,7 @@ body {
         button {
           background: $orange-color;
           &:hover {
-            background: lighten($orange-color, 5%);
+            background: color.adjust($orange-color, $lightness: 5%);
           }
         }
       }
@@ -12476,7 +12477,7 @@ body {
           background: $yellow-color;
           color: $secondary-color2;
           &:hover {
-            background: lighten($yellow-color, 5%);
+            background: color.adjust($yellow-color, $lightness: 5%);
           }
         }
       }
@@ -13565,7 +13566,7 @@ body {
     display: inline-block;
     border-radius: 3px;
     &:hover {
-      background: lighten($secondary-color, 5%);
+      background: color.adjust($secondary-color, $lightness: 5%);
       color: $white-color;
     }
     &.btn1 {
@@ -13934,7 +13935,7 @@ body {
         font-weight: 600;
         text-decoration: underline;
         &:hover {
-          color: darken($orange-color, 10%);
+          color: color.adjust($orange-color, $lightness:  10%);
         }
       }
     }
@@ -14496,7 +14497,7 @@ body {
           -webkit-transition: 0.4s;
           -ms-transition: 0.4s;
           &:hover {
-            background: darken($orange-color, 10%);
+            background: color.adjust($orange-color, $lightness:  10%);
           }
         }
       }
@@ -14744,7 +14745,7 @@ body {
           a {
             color: $orange-color !important;
             &:hover {
-              color: darken($orange-color, 10%) !important;
+              color: color.adjust($orange-color, $lightness: 10%) !important;
             }
           }
         }
@@ -14807,7 +14808,7 @@ body {
           a {
             background: $orange-color;
             &:hover {
-              background: darken($orange-color, 10%);
+              background: color.adjust($orange-color, $lightness:  10%);
             }
           }
         }
@@ -15364,14 +15365,14 @@ body {
     margin-left: 2px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: color.adjust($primary-color, $lightness:  10%);
     }
   }
   &.orange-color {
     i {
       background: $orange-color;
       &:hover {
-        background-color: darken($orange-color, 10%);
+        background-color: color.adjust($orange-color, $lightness:  10%);
       }
     }
   }
@@ -15379,7 +15380,7 @@ body {
     i {
       background: $yellow-color;
       &:hover {
-        background-color: darken($yellow-color, 10%);
+        background-color: color.adjust($yellow-color, $lightness: 10%);
       }
     }
   }
@@ -15387,7 +15388,7 @@ body {
     i {
       background: $purple-color;
       &:hover {
-        background-color: darken($purple-color, 10%);
+        background-color: color.adjust($purple-color, $lightness: 10%);
       }
     }
   }
@@ -15395,7 +15396,7 @@ body {
     i {
       background: $green-color;
       &:hover {
-        background-color: darken($green-color, 10%);
+        background-color: color.adjust($green-color, $lightness:  10%);
       }
     }
   }

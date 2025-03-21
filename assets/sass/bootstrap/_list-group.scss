@@ -1,6 +1,7 @@
 // Base class
 //
 // Easily usable on <ul>, <ol>, or <div>.
+@use "sass:map";
 
 .list-group {
   display: flex;
@@ -89,7 +90,7 @@
 //
 // Change the layout of list group items from vertical (default) to horizontal.
 
-@each $breakpoint in map-keys($grid-breakpoints) {
+@each $breakpoint in map.keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
