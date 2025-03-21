@@ -92,9 +92,10 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 4.4.1)
   jekyll-feed
   jekyll-paginate-v2
+  jekyll-sass-converter (~> 3.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
