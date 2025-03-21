@@ -1,6 +1,7 @@
 // stylelint-disable declaration-no-important
 
 // Typography
+@use "sass:color";
 
 @mixin text-emphasis-variant($parent, $color, $ignore-warning: false) {
   #{$parent} {
@@ -9,7 +10,7 @@
   @if $emphasized-link-hover-darken-percentage != 0 {
     a#{$parent} {
       @include hover-focus() {
-        color: darken($color, $emphasized-link-hover-darken-percentage) !important;
+        color: color.adjust($color, $lightness: $emphasized-link-hover-darken-percentage) !important;
       }
     }
   }
