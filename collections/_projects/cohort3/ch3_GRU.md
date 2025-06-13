@@ -1,8 +1,8 @@
 ---
 layout: project
-photo: "/assets/images/project/cohort3/gruOHW.jpg"
+photo: "/assets/images/project/cohort3/gruOHW.png"
 title: "GRU"
-description: "Mentees: Lupo Manes"
+description: "Mentee: Lupo Manes"
 date: 2025-01-01 09:00:00 +0000
 tags:
   - Cohort-3
