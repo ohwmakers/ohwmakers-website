@@ -1,8 +1,8 @@
 ---
 layout: project
-photo: "/assets/images/clive_flexML.jpg"
+photo: "/assets/images/project/cohort3/clive_flexML.jpg"
 title: "3DFlex ML"
-description: "Mentees: Clive Wright"
+description: "Mentee: Clive Wright"
 date: 2025-01-01 09:00:00 +0000
 tags:
   - Cohort-3

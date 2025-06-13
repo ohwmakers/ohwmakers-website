@@ -1,6 +1,6 @@
 ---
 layout: project
-photo: "/assets/images/ana_imaging.jpg"
+photo: "/assets/images/project/cohort3/ana_imaging.jpg"
 title: "Imaging outreach activity"
 description: "Mentees: Ana Maria Guisao Betancur"
 date: 2025-01-01 09:00:00 +0000

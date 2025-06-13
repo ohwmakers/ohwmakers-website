@@ -1,6 +1,6 @@
 ---
 layout: project
-photo: "/assets/images/gruOHW.jpg"
+photo: "/assets/images/project/cohort3/gruOHW.jpg"
 title: "GRU"
 description: "Mentees: Lupo Manes"
 date: 2025-01-01 09:00:00 +0000
